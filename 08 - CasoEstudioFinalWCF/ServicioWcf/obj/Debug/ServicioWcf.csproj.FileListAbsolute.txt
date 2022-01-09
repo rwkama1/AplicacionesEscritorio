@@ -1,0 +1,11 @@
+C:\Users\sistemas\Desktop\08 - CasoEstudioFinalWCF\ServicioWcf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sistemas\Desktop\08 - CasoEstudioFinalWCF\ServicioWcf\bin\ServicioWcf.dll
+C:\Users\sistemas\Desktop\08 - CasoEstudioFinalWCF\ServicioWcf\bin\ServicioWcf.pdb
+C:\Users\sistemas\Desktop\08 - CasoEstudioFinalWCF\ServicioWcf\bin\EntidadesCompartidas.dll
+C:\Users\sistemas\Desktop\08 - CasoEstudioFinalWCF\ServicioWcf\bin\Logica.dll
+C:\Users\sistemas\Desktop\08 - CasoEstudioFinalWCF\ServicioWcf\bin\Persistencia.dll
+C:\Users\sistemas\Desktop\08 - CasoEstudioFinalWCF\ServicioWcf\bin\EntidadesCompartidas.pdb
+C:\Users\sistemas\Desktop\08 - CasoEstudioFinalWCF\ServicioWcf\bin\Logica.pdb
+C:\Users\sistemas\Desktop\08 - CasoEstudioFinalWCF\ServicioWcf\bin\Persistencia.pdb
+C:\Users\sistemas\Desktop\08 - CasoEstudioFinalWCF\ServicioWcf\obj\Debug\ServicioWcf.dll
+C:\Users\sistemas\Desktop\08 - CasoEstudioFinalWCF\ServicioWcf\obj\Debug\ServicioWcf.pdb

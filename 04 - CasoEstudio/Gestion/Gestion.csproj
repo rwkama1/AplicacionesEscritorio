@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1E20B36F-E8E8-4AB1-A269-CE07C3BDC06A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Gestion</RootNamespace>
+    <AssemblyName>Gestion</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>http://localhost/Gestion/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Administrativo\frmABMAutor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrativo\frmABMAutor.Designer.cs">
+      <DependentUpon>frmABMAutor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrativo\FrmAutores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrativo\FrmAutores.Designer.cs">
+      <DependentUpon>FrmAutores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrativo\FrmPrinciaplA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrativo\FrmPrinciaplA.Designer.cs">
+      <DependentUpon>FrmPrinciaplA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ayudas\FrmAcercaDe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ayudas\FrmAcercaDe.Designer.cs">
+      <DependentUpon>FrmAcercaDe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ayudas\FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ayudas\FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ayudas\FrmPresentacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ayudas\FrmPresentacion.Designer.cs">
+      <DependentUpon>FrmPresentacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrativo\FrmLibros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrativo\FrmLibros.Designer.cs">
+      <DependentUpon>FrmLibros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrativo\FrmCicloVida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrativo\FrmCicloVida.Designer.cs">
+      <DependentUpon>FrmCicloVida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrativo\FrmManejoMouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrativo\FrmManejoMouse.Designer.cs">
+      <DependentUpon>FrmManejoMouse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrativo\FrmMuestraControles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrativo\FrmMuestraControles.Designer.cs">
+      <DependentUpon>FrmMuestraControles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\FrmRelacionTablas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\FrmRelacionTablas.Designer.cs">
+      <DependentUpon>FrmRelacionTablas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\FrmConsulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\FrmConsulta.Designer.cs">
+      <DependentUpon>FrmConsulta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Administrativo\frmABMAutor.resx">
+      <DependentUpon>frmABMAutor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrativo\FrmAutores.resx">
+      <DependentUpon>FrmAutores.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrativo\FrmCicloVida.resx">
+      <DependentUpon>FrmCicloVida.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrativo\FrmLibros.resx">
+      <DependentUpon>FrmLibros.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrativo\FrmManejoMouse.resx">
+      <DependentUpon>FrmManejoMouse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrativo\FrmMuestraControles.resx">
+      <DependentUpon>FrmMuestraControles.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrativo\FrmPrinciaplA.resx">
+      <DependentUpon>FrmPrinciaplA.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ayudas\FrmAcercaDe.resx">
+      <DependentUpon>FrmAcercaDe.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ayudas\FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ayudas\FrmPresentacion.resx">
+      <DependentUpon>FrmPresentacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\FrmPrincipalC.resx">
+      <DependentUpon>FrmPrincipalC.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\FrmRelacionTablas.resx">
+      <DependentUpon>FrmRelacionTablas.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\FrmConsulta.resx">
+      <DependentUpon>FrmConsulta.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Consultas\FrmPrincipalC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\FrmPrincipalC.Designer.cs">
+      <DependentUpon>FrmPrincipalC.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Controles\Controles.csproj">
+      <Project>{5FD22010-F779-4C64-A36B-DFF5BF810E57}</Project>
+      <Name>Controles</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EntidadesCompartidas\EntidadesCompartidas.csproj">
+      <Project>{0AA33114-26A1-4164-946B-100B536CB099}</Project>
+      <Name>EntidadesCompartidas</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Logica\Logica.csproj">
+      <Project>{A6754E84-DC65-4548-8C8B-A819C7011450}</Project>
+      <Name>Logica</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Imagenes\cancelar.png" />
+    <Content Include="Imagenes\eliminar.png" />
+    <Content Include="Imagenes\libro.bmp" />
+    <Content Include="Imagenes\libro.gif" />
+    <Content Include="Imagenes\modificar.bmp" />
+    <Content Include="Imagenes\nuevo.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

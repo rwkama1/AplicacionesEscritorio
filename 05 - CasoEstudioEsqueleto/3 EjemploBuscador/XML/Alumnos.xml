@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Alumnos>
+  <Alumno>
+          <Nombre>Andrea</Nombre>
+          <Apellido>Gomez</Apellido>
+          <Direccion>
+                <Calle>Yaguaron</Calle>
+                <Puerta>1234</Puerta>
+          </Direccion>
+  </Alumno>
+  <Alumno>
+          <Nombre>Juan</Nombre>
+          <Apellido>Ramirez</Apellido>
+          <Direccion>
+                <Calle>Colonia</Calle>
+                <Puerta>4568</Puerta>
+          </Direccion>
+  </Alumno>
+  <Alumno>
+          <Nombre>Juan</Nombre>
+          <Apellido>Gomez</Apellido>
+          <Direccion>
+                <Calle>Yi</Calle>
+                <Puerta>1458</Puerta>
+          </Direccion>
+  </Alumno>
+  <Alumno>
+          <Nombre>Rosana</Nombre>
+          <Apellido>Perez</Apellido>
+          <Direccion>
+                <Calle>Agraciada</Calle>
+                <Puerta>9512</Puerta>
+          </Direccion>
+  </Alumno>
+</Alumnos>

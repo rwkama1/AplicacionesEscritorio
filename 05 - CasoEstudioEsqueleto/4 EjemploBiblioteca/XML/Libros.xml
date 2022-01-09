@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Biblioteca>
+  <Libro Categoria="Policial">
+    <ISBN>987654321</ISBN>
+    <Titulo>Codigo Da Vinci</Titulo>
+    <Autor>456</Autor>
+  </Libro>
+  <Libro Categoria="Comedia">
+    <ISBN>147852369</ISBN>
+    <Titulo>Mucho Ruido y Pocas Nueces</Titulo>
+    <Autor>123</Autor>
+  </Libro>
+  <Libro Categoria="Drama">
+    <ISBN>369852147</ISBN>
+    <Titulo>La Tempestad</Titulo>
+    <Autor>123</Autor>
+  </Libro>
+</Biblioteca>

@@ -1,0 +1,20 @@
+C:\Users\popi\Desktop\CasoDeEstudio\00-CasoEstudio\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.dll
+C:\Users\popi\Desktop\CasoDeEstudio\00-CasoEstudio\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\popi\Desktop\CasoDeEstudio\00-CasoEstudio\EntidadesCompartidas\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\popi\Desktop\CasoDeEstudio\00-CasoEstudio\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.dll
+C:\Users\popi\Desktop\CasoDeEstudio\00-CasoEstudio\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.pdb
+C:\Users\popi\Desktop\00 - CasoEstudio\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.dll
+C:\Users\popi\Desktop\00 - CasoEstudio\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\popi\Desktop\00 - CasoEstudio\EntidadesCompartidas\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\popi\Desktop\00 - CasoEstudio\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.dll
+C:\Users\popi\Desktop\00 - CasoEstudio\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.pdb
+C:\Users\popi\Desktop\10 - CasoEstudioFinal\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.dll
+C:\Users\popi\Desktop\10 - CasoEstudioFinal\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\popi\Desktop\10 - CasoEstudioFinal\EntidadesCompartidas\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\popi\Desktop\10 - CasoEstudioFinal\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.dll
+C:\Users\popi\Desktop\10 - CasoEstudioFinal\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.pdb
+C:\Users\popi\Desktop\08 - CasoEstudioFinal\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.dll
+C:\Users\popi\Desktop\08 - CasoEstudioFinal\EntidadesCompartidas\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\popi\Desktop\08 - CasoEstudioFinal\EntidadesCompartidas\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\popi\Desktop\08 - CasoEstudioFinal\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.dll
+C:\Users\popi\Desktop\08 - CasoEstudioFinal\EntidadesCompartidas\obj\Debug\EntidadesCompartidas.pdb

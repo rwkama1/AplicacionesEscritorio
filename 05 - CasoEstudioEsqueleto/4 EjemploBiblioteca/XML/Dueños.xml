@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Dueños>
+  <Dueño>
+    <Cedula>11111</Cedula>
+    <Nombre>Nombreuno</Nombre>
+    <Direccion>Direccionuno</Direccion>
+  </Dueño>
+    <Dueño>
+      <Cedula>22222</Cedula>
+      <Nombre>Nombredos</Nombre>
+      <Direccion>Direcciondos</Direccion>
+    </Dueño>
+  <Dueño>
+   <Cedula>33333</Cedula>
+    <Nombre>Nombretres</Nombre>
+    <Direccion>Direcciontres</Direccion>
+  </Dueño>
+</Dueños>

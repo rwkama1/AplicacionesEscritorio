@@ -1,0 +1,10 @@
+C:\Users\popi\Desktop\08 - CasoEstudioFinal\3d-AdministradorBD\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\popi\Desktop\08 - CasoEstudioFinal\3d-AdministradorBD\bin\Debug\3d-AdministradorBD.exe
+C:\Users\popi\Desktop\08 - CasoEstudioFinal\3d-AdministradorBD\bin\Debug\3d-AdministradorBD.pdb
+C:\Users\popi\Desktop\08 - CasoEstudioFinal\3d-AdministradorBD\obj\x86\Debug\3d-AdministradorBD.exe
+C:\Users\popi\Desktop\08 - CasoEstudioFinal\3d-AdministradorBD\obj\x86\Debug\3d-AdministradorBD.pdb
+C:\Users\sistemas\Desktop\08 - CasoEstudioFinal\3d-AdministradorBD\obj\x86\Debug\3d-AdministradorBD.exe
+C:\Users\sistemas\Desktop\08 - CasoEstudioFinal\3d-AdministradorBD\obj\x86\Debug\3d-AdministradorBD.pdb
+C:\Users\sistemas\Desktop\08 - CasoEstudioFinal\3d-AdministradorBD\bin\Debug\3d-AdministradorBD.exe
+C:\Users\sistemas\Desktop\08 - CasoEstudioFinal\3d-AdministradorBD\bin\Debug\3d-AdministradorBD.pdb
+C:\Users\sistemas\Desktop\08 - CasoEstudioFinal\3d-AdministradorBD\obj\x86\Debug\ResolveAssemblyReference.cache

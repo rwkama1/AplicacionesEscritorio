@@ -1,0 +1,121 @@
+C:\Users\popi\Desktop\CasoDeEstudio\10 - CasoEstudio\Gestion\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\popi\Desktop\CasoDeEstudio\10 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmAutores.resources
+C:\Users\popi\Desktop\CasoDeEstudio\10 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmCicloVida.resources
+C:\Users\popi\Desktop\CasoDeEstudio\10 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmLibros.resources
+C:\Users\popi\Desktop\CasoDeEstudio\10 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmManejoMouse.resources
+C:\Users\popi\Desktop\CasoDeEstudio\10 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmMuestraControles.resources
+C:\Users\popi\Desktop\CasoDeEstudio\10 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmPrinciaplA.resources
+C:\Users\popi\Desktop\CasoDeEstudio\10 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmTipoLibros.resources
+C:\Users\popi\Desktop\CasoDeEstudio\10 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmAcercaDe.resources
+C:\Users\popi\Desktop\CasoDeEstudio\10 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmLogin.resources
+C:\Users\popi\Desktop\CasoDeEstudio\10 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmPresentacion.resources
+C:\Users\popi\Desktop\CasoDeEstudio\10 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmPrincipalC.resources
+C:\Users\popi\Desktop\CasoDeEstudio\10 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmRelacionTablas.resources
+C:\Users\popi\Desktop\CasoDeEstudio\10 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmConsulta.resources
+C:\Users\popi\Desktop\CasoDeEstudio\10 - CasoEstudio\Gestion\obj\Debug\Gestion.Properties.Resources.resources
+C:\Users\popi\Desktop\CasoDeEstudio\10 - CasoEstudio\Gestion\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\popi\Desktop\CasoDeEstudio\10 - CasoEstudio\Gestion\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\popi\Desktop\CasoDeEstudio\10 - CasoEstudio\Gestion\bin\Debug\Gestion.exe
+C:\Users\popi\Desktop\CasoDeEstudio\10 - CasoEstudio\Gestion\bin\Debug\Gestion.pdb
+C:\Users\popi\Desktop\CasoDeEstudio\10 - CasoEstudio\Gestion\bin\Debug\Controles.dll
+C:\Users\popi\Desktop\CasoDeEstudio\10 - CasoEstudio\Gestion\bin\Debug\EntidadesCompartidas.dll
+C:\Users\popi\Desktop\CasoDeEstudio\10 - CasoEstudio\Gestion\bin\Debug\Logica.dll
+C:\Users\popi\Desktop\CasoDeEstudio\10 - CasoEstudio\Gestion\bin\Debug\Persistencia.dll
+C:\Users\popi\Desktop\CasoDeEstudio\10 - CasoEstudio\Gestion\bin\Debug\Controles.pdb
+C:\Users\popi\Desktop\CasoDeEstudio\10 - CasoEstudio\Gestion\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\popi\Desktop\CasoDeEstudio\10 - CasoEstudio\Gestion\bin\Debug\Logica.pdb
+C:\Users\popi\Desktop\CasoDeEstudio\10 - CasoEstudio\Gestion\bin\Debug\Persistencia.pdb
+C:\Users\popi\Desktop\CasoDeEstudio\10 - CasoEstudio\Gestion\obj\Debug\Gestion.exe
+C:\Users\popi\Desktop\CasoDeEstudio\10 - CasoEstudio\Gestion\obj\Debug\Gestion.pdb
+C:\Users\popi\Desktop\04 - CasoEstudio\Gestion\bin\Debug\Gestion.exe
+C:\Users\popi\Desktop\04 - CasoEstudio\Gestion\bin\Debug\Gestion.pdb
+C:\Users\popi\Desktop\04 - CasoEstudio\Gestion\bin\Debug\Controles.dll
+C:\Users\popi\Desktop\04 - CasoEstudio\Gestion\bin\Debug\EntidadesCompartidas.dll
+C:\Users\popi\Desktop\04 - CasoEstudio\Gestion\bin\Debug\Logica.dll
+C:\Users\popi\Desktop\04 - CasoEstudio\Gestion\bin\Debug\Persistencia.dll
+C:\Users\popi\Desktop\04 - CasoEstudio\Gestion\bin\Debug\Controles.pdb
+C:\Users\popi\Desktop\04 - CasoEstudio\Gestion\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\popi\Desktop\04 - CasoEstudio\Gestion\bin\Debug\Logica.pdb
+C:\Users\popi\Desktop\04 - CasoEstudio\Gestion\bin\Debug\Persistencia.pdb
+C:\Users\popi\Desktop\04 - CasoEstudio\Gestion\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\popi\Desktop\04 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmAutores.resources
+C:\Users\popi\Desktop\04 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmCicloVida.resources
+C:\Users\popi\Desktop\04 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmLibros.resources
+C:\Users\popi\Desktop\04 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmManejoMouse.resources
+C:\Users\popi\Desktop\04 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmMuestraControles.resources
+C:\Users\popi\Desktop\04 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmPrinciaplA.resources
+C:\Users\popi\Desktop\04 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmAcercaDe.resources
+C:\Users\popi\Desktop\04 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmLogin.resources
+C:\Users\popi\Desktop\04 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmPresentacion.resources
+C:\Users\popi\Desktop\04 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmPrincipalC.resources
+C:\Users\popi\Desktop\04 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmRelacionTablas.resources
+C:\Users\popi\Desktop\04 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmConsulta.resources
+C:\Users\popi\Desktop\04 - CasoEstudio\Gestion\obj\Debug\Gestion.Properties.Resources.resources
+C:\Users\popi\Desktop\04 - CasoEstudio\Gestion\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\popi\Desktop\04 - CasoEstudio\Gestion\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\popi\Desktop\04 - CasoEstudio\Gestion\obj\Debug\Gestion.exe
+C:\Users\popi\Desktop\04 - CasoEstudio\Gestion\obj\Debug\Gestion.pdb
+C:\Users\sistemas\Desktop\Aplicaciones Escritorio\04 - CasoEstudio\Gestion\obj\Debug\Gestion.exe
+C:\Users\sistemas\Desktop\Aplicaciones Escritorio\04 - CasoEstudio\Gestion\obj\Debug\Gestion.pdb
+C:\Users\sistemas\Desktop\Aplicaciones Escritorio\04 - CasoEstudio\Gestion\bin\Debug\Gestion.exe
+C:\Users\sistemas\Desktop\Aplicaciones Escritorio\04 - CasoEstudio\Gestion\bin\Debug\Gestion.pdb
+C:\Users\sistemas\Desktop\Aplicaciones Escritorio\04 - CasoEstudio\Gestion\bin\Debug\Controles.dll
+C:\Users\sistemas\Desktop\Aplicaciones Escritorio\04 - CasoEstudio\Gestion\bin\Debug\EntidadesCompartidas.dll
+C:\Users\sistemas\Desktop\Aplicaciones Escritorio\04 - CasoEstudio\Gestion\bin\Debug\Logica.dll
+C:\Users\sistemas\Desktop\Aplicaciones Escritorio\04 - CasoEstudio\Gestion\bin\Debug\Persistencia.dll
+C:\Users\sistemas\Desktop\Aplicaciones Escritorio\04 - CasoEstudio\Gestion\bin\Debug\Controles.pdb
+C:\Users\sistemas\Desktop\Aplicaciones Escritorio\04 - CasoEstudio\Gestion\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\sistemas\Desktop\Aplicaciones Escritorio\04 - CasoEstudio\Gestion\bin\Debug\Logica.pdb
+C:\Users\sistemas\Desktop\Aplicaciones Escritorio\04 - CasoEstudio\Gestion\bin\Debug\Persistencia.pdb
+C:\Users\sistemas\Desktop\Aplicaciones Escritorio\04 - CasoEstudio\Gestion\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sistemas\Desktop\Aplicaciones Escritorio\04 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmAutores.resources
+C:\Users\sistemas\Desktop\Aplicaciones Escritorio\04 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmCicloVida.resources
+C:\Users\sistemas\Desktop\Aplicaciones Escritorio\04 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmLibros.resources
+C:\Users\sistemas\Desktop\Aplicaciones Escritorio\04 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmManejoMouse.resources
+C:\Users\sistemas\Desktop\Aplicaciones Escritorio\04 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmMuestraControles.resources
+C:\Users\sistemas\Desktop\Aplicaciones Escritorio\04 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmPrinciaplA.resources
+C:\Users\sistemas\Desktop\Aplicaciones Escritorio\04 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmAcercaDe.resources
+C:\Users\sistemas\Desktop\Aplicaciones Escritorio\04 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmLogin.resources
+C:\Users\sistemas\Desktop\Aplicaciones Escritorio\04 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmPresentacion.resources
+C:\Users\sistemas\Desktop\Aplicaciones Escritorio\04 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmPrincipalC.resources
+C:\Users\sistemas\Desktop\Aplicaciones Escritorio\04 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmRelacionTablas.resources
+C:\Users\sistemas\Desktop\Aplicaciones Escritorio\04 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmConsulta.resources
+C:\Users\sistemas\Desktop\Aplicaciones Escritorio\04 - CasoEstudio\Gestion\obj\Debug\Gestion.Properties.Resources.resources
+C:\Users\sistemas\Desktop\Aplicaciones Escritorio\04 - CasoEstudio\Gestion\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\sistemas\Desktop\Aplicaciones Escritorio\04 - CasoEstudio\Gestion\obj\Debug\ResGen.read.1.tlog
+C:\Users\sistemas\Desktop\Aplicaciones Escritorio\04 - CasoEstudio\Gestion\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\sistemas\Desktop\Aplicaciones Escritorio\04 - CasoEstudio\Gestion\obj\Debug\ResGen.write.1.tlog
+C:\Users\sistemas\Desktop\04 - CasoEstudio\Gestion\obj\Debug\Gestion.exe
+C:\Users\sistemas\Desktop\04 - CasoEstudio\Gestion\obj\Debug\Gestion.pdb
+C:\Users\sistemas\Desktop\04 - CasoEstudio\Gestion\bin\Debug\Gestion.exe
+C:\Users\sistemas\Desktop\04 - CasoEstudio\Gestion\bin\Debug\Gestion.pdb
+C:\Users\sistemas\Desktop\04 - CasoEstudio\Gestion\bin\Debug\Controles.dll
+C:\Users\sistemas\Desktop\04 - CasoEstudio\Gestion\bin\Debug\EntidadesCompartidas.dll
+C:\Users\sistemas\Desktop\04 - CasoEstudio\Gestion\bin\Debug\Logica.dll
+C:\Users\sistemas\Desktop\04 - CasoEstudio\Gestion\bin\Debug\Persistencia.dll
+C:\Users\sistemas\Desktop\04 - CasoEstudio\Gestion\bin\Debug\Controles.pdb
+C:\Users\sistemas\Desktop\04 - CasoEstudio\Gestion\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\sistemas\Desktop\04 - CasoEstudio\Gestion\bin\Debug\Logica.pdb
+C:\Users\sistemas\Desktop\04 - CasoEstudio\Gestion\bin\Debug\Persistencia.pdb
+C:\Users\sistemas\Desktop\04 - CasoEstudio\Gestion\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sistemas\Desktop\04 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmAutores.resources
+C:\Users\sistemas\Desktop\04 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmCicloVida.resources
+C:\Users\sistemas\Desktop\04 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmLibros.resources
+C:\Users\sistemas\Desktop\04 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmManejoMouse.resources
+C:\Users\sistemas\Desktop\04 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmMuestraControles.resources
+C:\Users\sistemas\Desktop\04 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmPrinciaplA.resources
+C:\Users\sistemas\Desktop\04 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmAcercaDe.resources
+C:\Users\sistemas\Desktop\04 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmLogin.resources
+C:\Users\sistemas\Desktop\04 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmPresentacion.resources
+C:\Users\sistemas\Desktop\04 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmPrincipalC.resources
+C:\Users\sistemas\Desktop\04 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmRelacionTablas.resources
+C:\Users\sistemas\Desktop\04 - CasoEstudio\Gestion\obj\Debug\Gestion.FrmConsulta.resources
+C:\Users\sistemas\Desktop\04 - CasoEstudio\Gestion\obj\Debug\Gestion.Properties.Resources.resources
+C:\Users\sistemas\Desktop\04 - CasoEstudio\Gestion\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\sistemas\Desktop\04 - CasoEstudio\Gestion\obj\Debug\ResGen.read.1.tlog
+C:\Users\sistemas\Desktop\04 - CasoEstudio\Gestion\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\sistemas\Desktop\04 - CasoEstudio\Gestion\obj\Debug\ResGen.write.1.tlog
+F:\2 ndo año analista de sistemas\Aplicaciones Escritorio\04 - CasoEstudio\Gestion\obj\Debug\Gestion.exe
+F:\2 ndo año analista de sistemas\Aplicaciones Escritorio\04 - CasoEstudio\Gestion\obj\Debug\Gestion.pdb
+C:\Users\Waldemar\Desktop\ANDRES\2 ndo año analista de sistemas\Aplicaciones Escritorio\04 - CasoEstudio\Gestion\obj\Debug\Gestion.exe
+C:\Users\Waldemar\Desktop\ANDRES\2 ndo año analista de sistemas\Aplicaciones Escritorio\04 - CasoEstudio\Gestion\obj\Debug\Gestion.pdb

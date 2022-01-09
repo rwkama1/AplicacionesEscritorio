@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="ParaPoderSerializar">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="unaCC" type="tns:CuentaCorriente" />
+            <s:element minOccurs="0" maxOccurs="1" name="unaCA" type="tns:CuentaCAhorro" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="CuentaCorriente">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Cuenta">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="MinimoCta" type="s:double" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="Cuenta">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="NumCta" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="UnCliente" type="tns:Cliente" />
+          <s:element minOccurs="1" maxOccurs="1" name="SaldoCuenta" type="s:double" />
+          <s:element minOccurs="0" maxOccurs="1" name="MiCliente" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Cliente">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="NumCli" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="NomCli" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DirCli" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PassCli" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UsuCli" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ListaTelefonos" type="tns:ArrayOfString" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="CuentaCAhorro">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Cuenta">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="MovsCta" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="CostoMovsCta" type="s:double" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="ParaPoderSerializarResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="ParaPoderSerializarCA">
+        <s:complexType />
+      </s:element>
+      <s:element name="ParaPoderSerializarCAResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ParaPoderSerializarCAResult" type="tns:CuentaCAhorro" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AltaCliente">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="unCliente" type="tns:Cliente" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AltaClienteResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="BajaCliente">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="unCliente" type="tns:Cliente" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BajaClienteResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="ModificarCliente">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="unCliente" type="tns:Cliente" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ModificarClienteResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="BuscarCliente">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="pNumCli" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BuscarClienteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BuscarClienteResult" type="tns:Cliente" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LogueoCliente">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pUsu" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pPass" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LogueoClienteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LogueoClienteResult" type="tns:Cliente" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarTodosClientes">
+        <s:complexType />
+      </s:element>
+      <s:element name="ListarTodosClientesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListarTodosClientesResult" type="tns:ArrayOfCliente" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfCliente">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Cliente" nillable="true" type="tns:Cliente" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ListaCuentasDeCliente">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pCliente" type="tns:Cliente" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaCuentasDeClienteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListaCuentasDeClienteResult" type="tns:ArrayOfCuenta" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfCuenta">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Cuenta" nillable="true" type="tns:Cuenta" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ListaMovsDeCliente">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pCliente" type="tns:Cliente" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaMovsDeClienteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListaMovsDeClienteResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AltaCuenta">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="unaCuenta" type="tns:Cuenta" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AltaCuentaResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="BajaCuenta">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="unaCuenta" type="tns:Cuenta" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BajaCuentaResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="BuscarCuenta">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="pNumCta" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BuscarCuentaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BuscarCuentaResult" type="tns:Cuenta" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarTodasCuentas">
+        <s:complexType />
+      </s:element>
+      <s:element name="ListarTodasCuentasResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListarTodasCuentasResult" type="tns:ArrayOfCuenta" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarCuentaCorriente">
+        <s:complexType />
+      </s:element>
+      <s:element name="ListarCuentaCorrienteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListarCuentaCorrienteResult" type="tns:ArrayOfCuentaCorriente" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfCuentaCorriente">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="CuentaCorriente" nillable="true" type="tns:CuentaCorriente" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ListarMovimientosDeCuenta">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="unaCuenta" type="tns:Cuenta" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarMovimientosDeCuentaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListarMovimientosDeCuentaResult" type="tns:ArrayOfMovimiento" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfMovimiento">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Movimiento" nillable="true" type="tns:Movimiento" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Movimiento">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="IdMov" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaMov" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="MontoMov" type="s:double" />
+          <s:element minOccurs="0" maxOccurs="1" name="TipoMov" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UnaCuenta" type="tns:Cuenta" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="LogueoEmpleado">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="pCI" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="pPass" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LogueoEmpleadoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LogueoEmpleadoResult" type="tns:Empleado" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Empleado">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="CiEmp" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="NomEmp" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PassEmp" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="AltaMovimiento">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pMovimiento" type="tns:Movimiento" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AltaMovimientoResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="ListarTodosMovimientos">
+        <s:complexType />
+      </s:element>
+      <s:element name="ListarTodosMovimientosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListarTodosMovimientosResult" type="tns:ArrayOfMovimiento" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AltaPrestamo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pPrestamo" type="tns:Prestamo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Prestamo">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Id" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="UnCliente" type="tns:Cliente" />
+          <s:element minOccurs="1" maxOccurs="1" name="Fecha" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="Monto" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="Aprobado" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="Cliente" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="AltaPrestamoResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="ListoPrestamosCliente">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="unCliente" type="tns:Cliente" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListoPrestamosClienteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListoPrestamosClienteResult" type="tns:ArrayOfPrestamo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfPrestamo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Prestamo" nillable="true" type="tns:Prestamo" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ListoTodosPrestamos">
+        <s:complexType />
+      </s:element>
+      <s:element name="ListoTodosPrestamosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListoTodosPrestamosResult" type="tns:ArrayOfPrestamo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ParaPoderSerializarSoapIn">
+    <wsdl:part name="parameters" element="tns:ParaPoderSerializar" />
+  </wsdl:message>
+  <wsdl:message name="ParaPoderSerializarSoapOut">
+    <wsdl:part name="parameters" element="tns:ParaPoderSerializarResponse" />
+  </wsdl:message>
+  <wsdl:message name="ParaPoderSerializarCASoapIn">
+    <wsdl:part name="parameters" element="tns:ParaPoderSerializarCA" />
+  </wsdl:message>
+  <wsdl:message name="ParaPoderSerializarCASoapOut">
+    <wsdl:part name="parameters" element="tns:ParaPoderSerializarCAResponse" />
+  </wsdl:message>
+  <wsdl:message name="AltaClienteSoapIn">
+    <wsdl:part name="parameters" element="tns:AltaCliente" />
+  </wsdl:message>
+  <wsdl:message name="AltaClienteSoapOut">
+    <wsdl:part name="parameters" element="tns:AltaClienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="BajaClienteSoapIn">
+    <wsdl:part name="parameters" element="tns:BajaCliente" />
+  </wsdl:message>
+  <wsdl:message name="BajaClienteSoapOut">
+    <wsdl:part name="parameters" element="tns:BajaClienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="ModificarClienteSoapIn">
+    <wsdl:part name="parameters" element="tns:ModificarCliente" />
+  </wsdl:message>
+  <wsdl:message name="ModificarClienteSoapOut">
+    <wsdl:part name="parameters" element="tns:ModificarClienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="BuscarClienteSoapIn">
+    <wsdl:part name="parameters" element="tns:BuscarCliente" />
+  </wsdl:message>
+  <wsdl:message name="BuscarClienteSoapOut">
+    <wsdl:part name="parameters" element="tns:BuscarClienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="LogueoClienteSoapIn">
+    <wsdl:part name="parameters" element="tns:LogueoCliente" />
+  </wsdl:message>
+  <wsdl:message name="LogueoClienteSoapOut">
+    <wsdl:part name="parameters" element="tns:LogueoClienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListarTodosClientesSoapIn">
+    <wsdl:part name="parameters" element="tns:ListarTodosClientes" />
+  </wsdl:message>
+  <wsdl:message name="ListarTodosClientesSoapOut">
+    <wsdl:part name="parameters" element="tns:ListarTodosClientesResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListaCuentasDeClienteSoapIn">
+    <wsdl:part name="parameters" element="tns:ListaCuentasDeCliente" />
+  </wsdl:message>
+  <wsdl:message name="ListaCuentasDeClienteSoapOut">
+    <wsdl:part name="parameters" element="tns:ListaCuentasDeClienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListaMovsDeClienteSoapIn">
+    <wsdl:part name="parameters" element="tns:ListaMovsDeCliente" />
+  </wsdl:message>
+  <wsdl:message name="ListaMovsDeClienteSoapOut">
+    <wsdl:part name="parameters" element="tns:ListaMovsDeClienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="AltaCuentaSoapIn">
+    <wsdl:part name="parameters" element="tns:AltaCuenta" />
+  </wsdl:message>
+  <wsdl:message name="AltaCuentaSoapOut">
+    <wsdl:part name="parameters" element="tns:AltaCuentaResponse" />
+  </wsdl:message>
+  <wsdl:message name="BajaCuentaSoapIn">
+    <wsdl:part name="parameters" element="tns:BajaCuenta" />
+  </wsdl:message>
+  <wsdl:message name="BajaCuentaSoapOut">
+    <wsdl:part name="parameters" element="tns:BajaCuentaResponse" />
+  </wsdl:message>
+  <wsdl:message name="BuscarCuentaSoapIn">
+    <wsdl:part name="parameters" element="tns:BuscarCuenta" />
+  </wsdl:message>
+  <wsdl:message name="BuscarCuentaSoapOut">
+    <wsdl:part name="parameters" element="tns:BuscarCuentaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListarTodasCuentasSoapIn">
+    <wsdl:part name="parameters" element="tns:ListarTodasCuentas" />
+  </wsdl:message>
+  <wsdl:message name="ListarTodasCuentasSoapOut">
+    <wsdl:part name="parameters" element="tns:ListarTodasCuentasResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListarCuentaCorrienteSoapIn">
+    <wsdl:part name="parameters" element="tns:ListarCuentaCorriente" />
+  </wsdl:message>
+  <wsdl:message name="ListarCuentaCorrienteSoapOut">
+    <wsdl:part name="parameters" element="tns:ListarCuentaCorrienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListarMovimientosDeCuentaSoapIn">
+    <wsdl:part name="parameters" element="tns:ListarMovimientosDeCuenta" />
+  </wsdl:message>
+  <wsdl:message name="ListarMovimientosDeCuentaSoapOut">
+    <wsdl:part name="parameters" element="tns:ListarMovimientosDeCuentaResponse" />
+  </wsdl:message>
+  <wsdl:message name="LogueoEmpleadoSoapIn">
+    <wsdl:part name="parameters" element="tns:LogueoEmpleado" />
+  </wsdl:message>
+  <wsdl:message name="LogueoEmpleadoSoapOut">
+    <wsdl:part name="parameters" element="tns:LogueoEmpleadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="AltaMovimientoSoapIn">
+    <wsdl:part name="parameters" element="tns:AltaMovimiento" />
+  </wsdl:message>
+  <wsdl:message name="AltaMovimientoSoapOut">
+    <wsdl:part name="parameters" element="tns:AltaMovimientoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListarTodosMovimientosSoapIn">
+    <wsdl:part name="parameters" element="tns:ListarTodosMovimientos" />
+  </wsdl:message>
+  <wsdl:message name="ListarTodosMovimientosSoapOut">
+    <wsdl:part name="parameters" element="tns:ListarTodosMovimientosResponse" />
+  </wsdl:message>
+  <wsdl:message name="AltaPrestamoSoapIn">
+    <wsdl:part name="parameters" element="tns:AltaPrestamo" />
+  </wsdl:message>
+  <wsdl:message name="AltaPrestamoSoapOut">
+    <wsdl:part name="parameters" element="tns:AltaPrestamoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListoPrestamosClienteSoapIn">
+    <wsdl:part name="parameters" element="tns:ListoPrestamosCliente" />
+  </wsdl:message>
+  <wsdl:message name="ListoPrestamosClienteSoapOut">
+    <wsdl:part name="parameters" element="tns:ListoPrestamosClienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListoTodosPrestamosSoapIn">
+    <wsdl:part name="parameters" element="tns:ListoTodosPrestamos" />
+  </wsdl:message>
+  <wsdl:message name="ListoTodosPrestamosSoapOut">
+    <wsdl:part name="parameters" element="tns:ListoTodosPrestamosResponse" />
+  </wsdl:message>
+  <wsdl:portType name="MiServicioSoap">
+    <wsdl:operation name="ParaPoderSerializar">
+      <wsdl:input message="tns:ParaPoderSerializarSoapIn" />
+      <wsdl:output message="tns:ParaPoderSerializarSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ParaPoderSerializarCA">
+      <wsdl:input message="tns:ParaPoderSerializarCASoapIn" />
+      <wsdl:output message="tns:ParaPoderSerializarCASoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AltaCliente">
+      <wsdl:input message="tns:AltaClienteSoapIn" />
+      <wsdl:output message="tns:AltaClienteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BajaCliente">
+      <wsdl:input message="tns:BajaClienteSoapIn" />
+      <wsdl:output message="tns:BajaClienteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ModificarCliente">
+      <wsdl:input message="tns:ModificarClienteSoapIn" />
+      <wsdl:output message="tns:ModificarClienteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BuscarCliente">
+      <wsdl:input message="tns:BuscarClienteSoapIn" />
+      <wsdl:output message="tns:BuscarClienteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LogueoCliente">
+      <wsdl:input message="tns:LogueoClienteSoapIn" />
+      <wsdl:output message="tns:LogueoClienteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarTodosClientes">
+      <wsdl:input message="tns:ListarTodosClientesSoapIn" />
+      <wsdl:output message="tns:ListarTodosClientesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaCuentasDeCliente">
+      <wsdl:input message="tns:ListaCuentasDeClienteSoapIn" />
+      <wsdl:output message="tns:ListaCuentasDeClienteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaMovsDeCliente">
+      <wsdl:input message="tns:ListaMovsDeClienteSoapIn" />
+      <wsdl:output message="tns:ListaMovsDeClienteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AltaCuenta">
+      <wsdl:input message="tns:AltaCuentaSoapIn" />
+      <wsdl:output message="tns:AltaCuentaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BajaCuenta">
+      <wsdl:input message="tns:BajaCuentaSoapIn" />
+      <wsdl:output message="tns:BajaCuentaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BuscarCuenta">
+      <wsdl:input message="tns:BuscarCuentaSoapIn" />
+      <wsdl:output message="tns:BuscarCuentaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarTodasCuentas">
+      <wsdl:input message="tns:ListarTodasCuentasSoapIn" />
+      <wsdl:output message="tns:ListarTodasCuentasSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarCuentaCorriente">
+      <wsdl:input message="tns:ListarCuentaCorrienteSoapIn" />
+      <wsdl:output message="tns:ListarCuentaCorrienteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarMovimientosDeCuenta">
+      <wsdl:input message="tns:ListarMovimientosDeCuentaSoapIn" />
+      <wsdl:output message="tns:ListarMovimientosDeCuentaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LogueoEmpleado">
+      <wsdl:input message="tns:LogueoEmpleadoSoapIn" />
+      <wsdl:output message="tns:LogueoEmpleadoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AltaMovimiento">
+      <wsdl:input message="tns:AltaMovimientoSoapIn" />
+      <wsdl:output message="tns:AltaMovimientoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarTodosMovimientos">
+      <wsdl:input message="tns:ListarTodosMovimientosSoapIn" />
+      <wsdl:output message="tns:ListarTodosMovimientosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AltaPrestamo">
+      <wsdl:input message="tns:AltaPrestamoSoapIn" />
+      <wsdl:output message="tns:AltaPrestamoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListoPrestamosCliente">
+      <wsdl:input message="tns:ListoPrestamosClienteSoapIn" />
+      <wsdl:output message="tns:ListoPrestamosClienteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListoTodosPrestamos">
+      <wsdl:input message="tns:ListoTodosPrestamosSoapIn" />
+      <wsdl:output message="tns:ListoTodosPrestamosSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="MiServicioSoap" type="tns:MiServicioSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ParaPoderSerializar">
+      <soap:operation soapAction="http://tempuri.org/ParaPoderSerializar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ParaPoderSerializarCA">
+      <soap:operation soapAction="http://tempuri.org/ParaPoderSerializarCA" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AltaCliente">
+      <soap:operation soapAction="http://tempuri.org/AltaCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BajaCliente">
+      <soap:operation soapAction="http://tempuri.org/BajaCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificarCliente">
+      <soap:operation soapAction="http://tempuri.org/ModificarCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BuscarCliente">
+      <soap:operation soapAction="http://tempuri.org/BuscarCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LogueoCliente">
+      <soap:operation soapAction="http://tempuri.org/LogueoCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarTodosClientes">
+      <soap:operation soapAction="http://tempuri.org/ListarTodosClientes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaCuentasDeCliente">
+      <soap:operation soapAction="http://tempuri.org/ListaCuentasDeCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaMovsDeCliente">
+      <soap:operation soapAction="http://tempuri.org/ListaMovsDeCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AltaCuenta">
+      <soap:operation soapAction="http://tempuri.org/AltaCuenta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BajaCuenta">
+      <soap:operation soapAction="http://tempuri.org/BajaCuenta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BuscarCuenta">
+      <soap:operation soapAction="http://tempuri.org/BuscarCuenta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarTodasCuentas">
+      <soap:operation soapAction="http://tempuri.org/ListarTodasCuentas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarCuentaCorriente">
+      <soap:operation soapAction="http://tempuri.org/ListarCuentaCorriente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarMovimientosDeCuenta">
+      <soap:operation soapAction="http://tempuri.org/ListarMovimientosDeCuenta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LogueoEmpleado">
+      <soap:operation soapAction="http://tempuri.org/LogueoEmpleado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AltaMovimiento">
+      <soap:operation soapAction="http://tempuri.org/AltaMovimiento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarTodosMovimientos">
+      <soap:operation soapAction="http://tempuri.org/ListarTodosMovimientos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AltaPrestamo">
+      <soap:operation soapAction="http://tempuri.org/AltaPrestamo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListoPrestamosCliente">
+      <soap:operation soapAction="http://tempuri.org/ListoPrestamosCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListoTodosPrestamos">
+      <soap:operation soapAction="http://tempuri.org/ListoTodosPrestamos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="MiServicioSoap12" type="tns:MiServicioSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ParaPoderSerializar">
+      <soap12:operation soapAction="http://tempuri.org/ParaPoderSerializar" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ParaPoderSerializarCA">
+      <soap12:operation soapAction="http://tempuri.org/ParaPoderSerializarCA" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AltaCliente">
+      <soap12:operation soapAction="http://tempuri.org/AltaCliente" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BajaCliente">
+      <soap12:operation soapAction="http://tempuri.org/BajaCliente" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificarCliente">
+      <soap12:operation soapAction="http://tempuri.org/ModificarCliente" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BuscarCliente">
+      <soap12:operation soapAction="http://tempuri.org/BuscarCliente" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LogueoCliente">
+      <soap12:operation soapAction="http://tempuri.org/LogueoCliente" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarTodosClientes">
+      <soap12:operation soapAction="http://tempuri.org/ListarTodosClientes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaCuentasDeCliente">
+      <soap12:operation soapAction="http://tempuri.org/ListaCuentasDeCliente" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaMovsDeCliente">
+      <soap12:operation soapAction="http://tempuri.org/ListaMovsDeCliente" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AltaCuenta">
+      <soap12:operation soapAction="http://tempuri.org/AltaCuenta" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BajaCuenta">
+      <soap12:operation soapAction="http://tempuri.org/BajaCuenta" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BuscarCuenta">
+      <soap12:operation soapAction="http://tempuri.org/BuscarCuenta" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarTodasCuentas">
+      <soap12:operation soapAction="http://tempuri.org/ListarTodasCuentas" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarCuentaCorriente">
+      <soap12:operation soapAction="http://tempuri.org/ListarCuentaCorriente" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarMovimientosDeCuenta">
+      <soap12:operation soapAction="http://tempuri.org/ListarMovimientosDeCuenta" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LogueoEmpleado">
+      <soap12:operation soapAction="http://tempuri.org/LogueoEmpleado" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AltaMovimiento">
+      <soap12:operation soapAction="http://tempuri.org/AltaMovimiento" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarTodosMovimientos">
+      <soap12:operation soapAction="http://tempuri.org/ListarTodosMovimientos" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AltaPrestamo">
+      <soap12:operation soapAction="http://tempuri.org/AltaPrestamo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListoPrestamosCliente">
+      <soap12:operation soapAction="http://tempuri.org/ListoPrestamosCliente" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListoTodosPrestamos">
+      <soap12:operation soapAction="http://tempuri.org/ListoTodosPrestamos" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="MiServicio">
+    <wsdl:port name="MiServicioSoap" binding="tns:MiServicioSoap">
+      <soap:address location="http://localhost/SWFinal/MiServicio.asmx" />
+    </wsdl:port>
+    <wsdl:port name="MiServicioSoap12" binding="tns:MiServicioSoap12">
+      <soap12:address location="http://localhost/SWFinal/MiServicio.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,50 @@
+C:\Documents and Settings\Administrador\Escritorio\09A - WinForms\Controles\bin\Debug\Controles.dll
+C:\Documents and Settings\Administrador\Escritorio\09A - WinForms\Controles\bin\Debug\Controles.pdb
+C:\Documents and Settings\Administrador\Escritorio\09A - WinForms\Controles\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Escritorio\09A - WinForms\Controles\obj\Debug\Controles.TextBoxSoloNumeros.resources
+C:\Documents and Settings\Administrador\Escritorio\09A - WinForms\Controles\obj\Debug\Controles.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrador\Escritorio\09A - WinForms\Controles\obj\Debug\Controles.dll
+C:\Documents and Settings\Administrador\Escritorio\09A - WinForms\Controles\obj\Debug\Controles.pdb
+C:\Documents and Settings\Administrador\Escritorio\09A - WinForms\Controles\bin\Debug\EntidadesCompartidas.dll
+C:\Documents and Settings\Administrador\Escritorio\09A - WinForms\Controles\bin\Debug\EntidadesCompartidas.pdb
+C:\Documents and Settings\Administrador\Escritorio\10 - WinForms\Controles\bin\Debug\Controles.dll
+C:\Documents and Settings\Administrador\Escritorio\10 - WinForms\Controles\bin\Debug\Controles.pdb
+C:\Documents and Settings\Administrador\Escritorio\10 - WinForms\Controles\bin\Debug\EntidadesCompartidas.dll
+C:\Documents and Settings\Administrador\Escritorio\10 - WinForms\Controles\bin\Debug\EntidadesCompartidas.pdb
+C:\Documents and Settings\Administrador\Escritorio\10 - WinForms\Controles\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Escritorio\10 - WinForms\Controles\obj\Debug\Controles.TextBoxSoloNumeros.resources
+C:\Documents and Settings\Administrador\Escritorio\10 - WinForms\Controles\obj\Debug\Controles.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrador\Escritorio\10 - WinForms\Controles\obj\Debug\Controles.dll
+C:\Documents and Settings\Administrador\Escritorio\10 - WinForms\Controles\obj\Debug\Controles.pdb
+C:\Users\popi\Desktop\CasoDeEstudio\10 - CasoEstudio\Controles\bin\Debug\Controles.dll
+C:\Users\popi\Desktop\CasoDeEstudio\10 - CasoEstudio\Controles\bin\Debug\Controles.pdb
+C:\Users\popi\Desktop\CasoDeEstudio\10 - CasoEstudio\Controles\bin\Debug\EntidadesCompartidas.dll
+C:\Users\popi\Desktop\CasoDeEstudio\10 - CasoEstudio\Controles\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\popi\Desktop\CasoDeEstudio\10 - CasoEstudio\Controles\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\popi\Desktop\CasoDeEstudio\10 - CasoEstudio\Controles\obj\Debug\Controles.TextBoxSoloNumeros.resources
+C:\Users\popi\Desktop\CasoDeEstudio\10 - CasoEstudio\Controles\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\popi\Desktop\CasoDeEstudio\10 - CasoEstudio\Controles\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\popi\Desktop\CasoDeEstudio\10 - CasoEstudio\Controles\obj\Debug\Controles.dll
+C:\Users\popi\Desktop\CasoDeEstudio\10 - CasoEstudio\Controles\obj\Debug\Controles.pdb
+C:\Users\popi\Desktop\04 - CasoEstudio\Controles\bin\Debug\Controles.dll
+C:\Users\popi\Desktop\04 - CasoEstudio\Controles\bin\Debug\Controles.pdb
+C:\Users\popi\Desktop\04 - CasoEstudio\Controles\bin\Debug\EntidadesCompartidas.dll
+C:\Users\popi\Desktop\04 - CasoEstudio\Controles\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\popi\Desktop\04 - CasoEstudio\Controles\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\popi\Desktop\04 - CasoEstudio\Controles\obj\Debug\Controles.TextBoxSoloNumeros.resources
+C:\Users\popi\Desktop\04 - CasoEstudio\Controles\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\popi\Desktop\04 - CasoEstudio\Controles\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\popi\Desktop\04 - CasoEstudio\Controles\obj\Debug\Controles.dll
+C:\Users\popi\Desktop\04 - CasoEstudio\Controles\obj\Debug\Controles.pdb
+C:\Users\sistemas\Desktop\04 - CasoEstudio\Controles\bin\Debug\Controles.dll
+C:\Users\sistemas\Desktop\04 - CasoEstudio\Controles\bin\Debug\Controles.pdb
+C:\Users\sistemas\Desktop\04 - CasoEstudio\Controles\bin\Debug\EntidadesCompartidas.dll
+C:\Users\sistemas\Desktop\04 - CasoEstudio\Controles\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\sistemas\Desktop\04 - CasoEstudio\Controles\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sistemas\Desktop\04 - CasoEstudio\Controles\obj\Debug\Controles.TextBoxSoloNumeros.resources
+C:\Users\sistemas\Desktop\04 - CasoEstudio\Controles\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\sistemas\Desktop\04 - CasoEstudio\Controles\obj\Debug\ResGen.read.1.tlog
+C:\Users\sistemas\Desktop\04 - CasoEstudio\Controles\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\sistemas\Desktop\04 - CasoEstudio\Controles\obj\Debug\ResGen.write.1.tlog
+C:\Users\sistemas\Desktop\04 - CasoEstudio\Controles\obj\Debug\Controles.dll
+C:\Users\sistemas\Desktop\04 - CasoEstudio\Controles\obj\Debug\Controles.pdb

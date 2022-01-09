@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="yes"?>
+<Ventas>
+  <Familias>
+    <CodFam>1</CodFam>
+    <NomFam>Comestibles</NomFam>
+    <DescFam>Productos que se pueden Comer</DescFam>
+  </Familias>
+  <Familias>
+    <CodFam>2</CodFam>
+    <NomFam>Limpieza</NomFam>
+    <DescFam>Productos para limpiar</DescFam>
+  </Familias>
+  <Familias>
+    <CodFam>3</CodFam>
+    <NomFam>Electrodomesticos</NomFam>
+    <DescFam>Productos muy utiles</DescFam>
+  </Familias>
+  <Articulos>
+    <CodArt>1</CodArt>
+    <NomArt>Pizza</NomArt>
+    <PreArt>150.0000</PreArt>
+    <CodFam>1</CodFam>
+  </Articulos>
+  <Articulos>
+    <CodArt>2</CodArt>
+    <NomArt>Nevex 5kg</NomArt>
+    <PreArt>250.0000</PreArt>
+    <CodFam>2</CodFam>
+  </Articulos>
+  <Articulos>
+    <CodArt>3</CodArt>
+    <NomArt>Ventilador de techo</NomArt>
+    <PreArt>10.0000</PreArt>
+    <CodFam>3</CodFam>
+  </Articulos>
+</Ventas>

@@ -1,0 +1,101 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "1 EjemploAdo", "1 EjemploAdo\", "{CF0E2106-BF04-438E-8B71-14BCA51BFE09}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/1 EjemploAdo"
+		Debug.AspNetCompiler.PhysicalPath = "1 EjemploAdo\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\1 EjemploAdo\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/1 EjemploAdo"
+		Release.AspNetCompiler.PhysicalPath = "1 EjemploAdo\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\1 EjemploAdo\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49553"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "2 EjemploRecursividad", "2 EjemploRecursividad\", "{F308A3AD-1007-4FDC-BD57-F48AF40FD41F}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/2 EjemploRecursividad"
+		Debug.AspNetCompiler.PhysicalPath = "2 EjemploRecursividad\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\2 EjemploRecursividad\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/2 EjemploRecursividad"
+		Release.AspNetCompiler.PhysicalPath = "2 EjemploRecursividad\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\2 EjemploRecursividad\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49554"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "3 EjemploBuscador", "3 EjemploBuscador\", "{C0431EDB-42B4-4398-BBC5-E65E323BAE78}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/3 EjemploBuscador"
+		Debug.AspNetCompiler.PhysicalPath = "3 EjemploBuscador\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\3 EjemploBuscador\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/3 EjemploBuscador"
+		Release.AspNetCompiler.PhysicalPath = "3 EjemploBuscador\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\3 EjemploBuscador\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49557"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "4 EjemploBiblioteca", "4 EjemploBiblioteca\", "{B3EC7250-8528-4C33-AF68-AEAA37D8DAFB}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/4 EjemploBiblioteca"
+		Debug.AspNetCompiler.PhysicalPath = "4 EjemploBiblioteca\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\4 EjemploBiblioteca\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/4 EjemploBiblioteca"
+		Release.AspNetCompiler.PhysicalPath = "4 EjemploBiblioteca\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\4 EjemploBiblioteca\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49559"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF0E2106-BF04-438E-8B71-14BCA51BFE09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF0E2106-BF04-438E-8B71-14BCA51BFE09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F308A3AD-1007-4FDC-BD57-F48AF40FD41F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F308A3AD-1007-4FDC-BD57-F48AF40FD41F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0431EDB-42B4-4398-BBC5-E65E323BAE78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0431EDB-42B4-4398-BBC5-E65E323BAE78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3EC7250-8528-4C33-AF68-AEAA37D8DAFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3EC7250-8528-4C33-AF68-AEAA37D8DAFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

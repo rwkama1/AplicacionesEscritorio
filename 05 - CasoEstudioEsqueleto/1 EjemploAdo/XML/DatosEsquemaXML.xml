@@ -1,0 +1,63 @@
+<?xml version="1.0" standalone="yes"?>
+<Ventas>
+  <xs:schema id="Ventas" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="Ventas" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Familias">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="CodFam" type="xs:int" minOccurs="0" />
+                <xs:element name="NomFam" type="xs:string" minOccurs="0" />
+                <xs:element name="DescFam" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Articulos">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="CodArt" type="xs:int" minOccurs="0" />
+                <xs:element name="NomArt" type="xs:string" minOccurs="0" />
+                <xs:element name="PreArt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="CodFam" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Familias>
+    <CodFam>1</CodFam>
+    <NomFam>Comestibles</NomFam>
+    <DescFam>Productos que se pueden Comer</DescFam>
+  </Familias>
+  <Familias>
+    <CodFam>2</CodFam>
+    <NomFam>Limpieza</NomFam>
+    <DescFam>Productos para limpiar</DescFam>
+  </Familias>
+  <Familias>
+    <CodFam>3</CodFam>
+    <NomFam>Electrodomesticos</NomFam>
+    <DescFam>Productos muy utiles</DescFam>
+  </Familias>
+  <Articulos>
+    <CodArt>1</CodArt>
+    <NomArt>Pizza</NomArt>
+    <PreArt>150.0000</PreArt>
+    <CodFam>1</CodFam>
+  </Articulos>
+  <Articulos>
+    <CodArt>2</CodArt>
+    <NomArt>Nevex 5kg</NomArt>
+    <PreArt>250.0000</PreArt>
+    <CodFam>2</CodFam>
+  </Articulos>
+  <Articulos>
+    <CodArt>3</CodArt>
+    <NomArt>Ventilador de techo</NomArt>
+    <PreArt>10.0000</PreArt>
+    <CodFam>3</CodFam>
+  </Articulos>
+</Ventas>

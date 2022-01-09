@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="PC31" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="Default Web Site/ServicioWcf" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="False" msdeployMarkAsApp="True" profileName="Perfil1" publishMethod="MSDeploy" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True" />
+</publishData>

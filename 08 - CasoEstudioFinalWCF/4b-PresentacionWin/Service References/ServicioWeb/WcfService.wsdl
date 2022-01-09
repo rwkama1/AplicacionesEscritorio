@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="WcfService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://pc31/ServicioWcf/WcfService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://pc31/ServicioWcf/WcfService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://pc31/ServicioWcf/WcfService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" />
+      <xsd:import schemaLocation="http://pc31/ServicioWcf/WcfService.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IWcfService_AltaCliente_InputMessage">
+    <wsdl:part name="parameters" element="tns:AltaCliente" />
+  </wsdl:message>
+  <wsdl:message name="IWcfService_AltaCliente_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AltaClienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWcfService_BajaCliente_InputMessage">
+    <wsdl:part name="parameters" element="tns:BajaCliente" />
+  </wsdl:message>
+  <wsdl:message name="IWcfService_BajaCliente_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BajaClienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWcfService_ModificarCliente_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarCliente" />
+  </wsdl:message>
+  <wsdl:message name="IWcfService_ModificarCliente_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarClienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWcfService_BuscarCliente_InputMessage">
+    <wsdl:part name="parameters" element="tns:BuscarCliente" />
+  </wsdl:message>
+  <wsdl:message name="IWcfService_BuscarCliente_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BuscarClienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWcfService_LogueoCliente_InputMessage">
+    <wsdl:part name="parameters" element="tns:LogueoCliente" />
+  </wsdl:message>
+  <wsdl:message name="IWcfService_LogueoCliente_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LogueoClienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWcfService_ListarTodosClientes_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListarTodosClientes" />
+  </wsdl:message>
+  <wsdl:message name="IWcfService_ListarTodosClientes_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListarTodosClientesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWcfService_ListaCuentasDeCliente_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListaCuentasDeCliente" />
+  </wsdl:message>
+  <wsdl:message name="IWcfService_ListaCuentasDeCliente_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListaCuentasDeClienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWcfService_ListaMovsDeCliente_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListaMovsDeCliente" />
+  </wsdl:message>
+  <wsdl:message name="IWcfService_ListaMovsDeCliente_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListaMovsDeClienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWcfService_AltaCuenta_InputMessage">
+    <wsdl:part name="parameters" element="tns:AltaCuenta" />
+  </wsdl:message>
+  <wsdl:message name="IWcfService_AltaCuenta_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AltaCuentaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWcfService_BajaCuenta_InputMessage">
+    <wsdl:part name="parameters" element="tns:BajaCuenta" />
+  </wsdl:message>
+  <wsdl:message name="IWcfService_BajaCuenta_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BajaCuentaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWcfService_BuscarCuenta_InputMessage">
+    <wsdl:part name="parameters" element="tns:BuscarCuenta" />
+  </wsdl:message>
+  <wsdl:message name="IWcfService_BuscarCuenta_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BuscarCuentaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWcfService_ListarTodasCuentas_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListarTodasCuentas" />
+  </wsdl:message>
+  <wsdl:message name="IWcfService_ListarTodasCuentas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListarTodasCuentasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWcfService_ListarCuentaCorriente_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListarCuentaCorriente" />
+  </wsdl:message>
+  <wsdl:message name="IWcfService_ListarCuentaCorriente_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListarCuentaCorrienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWcfService_ListarMovimientosDeCuenta_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListarMovimientosDeCuenta" />
+  </wsdl:message>
+  <wsdl:message name="IWcfService_ListarMovimientosDeCuenta_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListarMovimientosDeCuentaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWcfService_LogueoEmpleado_InputMessage">
+    <wsdl:part name="parameters" element="tns:LogueoEmpleado" />
+  </wsdl:message>
+  <wsdl:message name="IWcfService_LogueoEmpleado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LogueoEmpleadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWcfService_AltaMovimiento_InputMessage">
+    <wsdl:part name="parameters" element="tns:AltaMovimiento" />
+  </wsdl:message>
+  <wsdl:message name="IWcfService_AltaMovimiento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AltaMovimientoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWcfService_ListarTodosMovimientos_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListarTodosMovimientos" />
+  </wsdl:message>
+  <wsdl:message name="IWcfService_ListarTodosMovimientos_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListarTodosMovimientosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWcfService_AltaPrestamo_InputMessage">
+    <wsdl:part name="parameters" element="tns:AltaPrestamo" />
+  </wsdl:message>
+  <wsdl:message name="IWcfService_AltaPrestamo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AltaPrestamoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWcfService_ListoPrestamosCliente_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListoPrestamosCliente" />
+  </wsdl:message>
+  <wsdl:message name="IWcfService_ListoPrestamosCliente_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListoPrestamosClienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWcfService_ListoTodosPrestamos_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListoTodosPrestamos" />
+  </wsdl:message>
+  <wsdl:message name="IWcfService_ListoTodosPrestamos_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListoTodosPrestamosResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IWcfService">
+    <wsdl:operation name="AltaCliente">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWcfService/AltaCliente" message="tns:IWcfService_AltaCliente_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWcfService/AltaClienteResponse" message="tns:IWcfService_AltaCliente_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BajaCliente">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWcfService/BajaCliente" message="tns:IWcfService_BajaCliente_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWcfService/BajaClienteResponse" message="tns:IWcfService_BajaCliente_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModificarCliente">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWcfService/ModificarCliente" message="tns:IWcfService_ModificarCliente_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWcfService/ModificarClienteResponse" message="tns:IWcfService_ModificarCliente_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BuscarCliente">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWcfService/BuscarCliente" message="tns:IWcfService_BuscarCliente_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWcfService/BuscarClienteResponse" message="tns:IWcfService_BuscarCliente_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LogueoCliente">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWcfService/LogueoCliente" message="tns:IWcfService_LogueoCliente_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWcfService/LogueoClienteResponse" message="tns:IWcfService_LogueoCliente_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarTodosClientes">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWcfService/ListarTodosClientes" message="tns:IWcfService_ListarTodosClientes_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWcfService/ListarTodosClientesResponse" message="tns:IWcfService_ListarTodosClientes_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaCuentasDeCliente">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWcfService/ListaCuentasDeCliente" message="tns:IWcfService_ListaCuentasDeCliente_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWcfService/ListaCuentasDeClienteResponse" message="tns:IWcfService_ListaCuentasDeCliente_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaMovsDeCliente">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWcfService/ListaMovsDeCliente" message="tns:IWcfService_ListaMovsDeCliente_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWcfService/ListaMovsDeClienteResponse" message="tns:IWcfService_ListaMovsDeCliente_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AltaCuenta">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWcfService/AltaCuenta" message="tns:IWcfService_AltaCuenta_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWcfService/AltaCuentaResponse" message="tns:IWcfService_AltaCuenta_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BajaCuenta">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWcfService/BajaCuenta" message="tns:IWcfService_BajaCuenta_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWcfService/BajaCuentaResponse" message="tns:IWcfService_BajaCuenta_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BuscarCuenta">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWcfService/BuscarCuenta" message="tns:IWcfService_BuscarCuenta_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWcfService/BuscarCuentaResponse" message="tns:IWcfService_BuscarCuenta_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarTodasCuentas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWcfService/ListarTodasCuentas" message="tns:IWcfService_ListarTodasCuentas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWcfService/ListarTodasCuentasResponse" message="tns:IWcfService_ListarTodasCuentas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarCuentaCorriente">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWcfService/ListarCuentaCorriente" message="tns:IWcfService_ListarCuentaCorriente_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWcfService/ListarCuentaCorrienteResponse" message="tns:IWcfService_ListarCuentaCorriente_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarMovimientosDeCuenta">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWcfService/ListarMovimientosDeCuenta" message="tns:IWcfService_ListarMovimientosDeCuenta_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWcfService/ListarMovimientosDeCuentaResponse" message="tns:IWcfService_ListarMovimientosDeCuenta_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LogueoEmpleado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWcfService/LogueoEmpleado" message="tns:IWcfService_LogueoEmpleado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWcfService/LogueoEmpleadoResponse" message="tns:IWcfService_LogueoEmpleado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AltaMovimiento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWcfService/AltaMovimiento" message="tns:IWcfService_AltaMovimiento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWcfService/AltaMovimientoResponse" message="tns:IWcfService_AltaMovimiento_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarTodosMovimientos">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWcfService/ListarTodosMovimientos" message="tns:IWcfService_ListarTodosMovimientos_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWcfService/ListarTodosMovimientosResponse" message="tns:IWcfService_ListarTodosMovimientos_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AltaPrestamo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWcfService/AltaPrestamo" message="tns:IWcfService_AltaPrestamo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWcfService/AltaPrestamoResponse" message="tns:IWcfService_AltaPrestamo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListoPrestamosCliente">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWcfService/ListoPrestamosCliente" message="tns:IWcfService_ListoPrestamosCliente_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWcfService/ListoPrestamosClienteResponse" message="tns:IWcfService_ListoPrestamosCliente_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListoTodosPrestamos">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWcfService/ListoTodosPrestamos" message="tns:IWcfService_ListoTodosPrestamos_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWcfService/ListoTodosPrestamosResponse" message="tns:IWcfService_ListoTodosPrestamos_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IWcfService" type="tns:IWcfService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AltaCliente">
+      <soap:operation soapAction="http://tempuri.org/IWcfService/AltaCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BajaCliente">
+      <soap:operation soapAction="http://tempuri.org/IWcfService/BajaCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificarCliente">
+      <soap:operation soapAction="http://tempuri.org/IWcfService/ModificarCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BuscarCliente">
+      <soap:operation soapAction="http://tempuri.org/IWcfService/BuscarCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LogueoCliente">
+      <soap:operation soapAction="http://tempuri.org/IWcfService/LogueoCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarTodosClientes">
+      <soap:operation soapAction="http://tempuri.org/IWcfService/ListarTodosClientes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaCuentasDeCliente">
+      <soap:operation soapAction="http://tempuri.org/IWcfService/ListaCuentasDeCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaMovsDeCliente">
+      <soap:operation soapAction="http://tempuri.org/IWcfService/ListaMovsDeCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AltaCuenta">
+      <soap:operation soapAction="http://tempuri.org/IWcfService/AltaCuenta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BajaCuenta">
+      <soap:operation soapAction="http://tempuri.org/IWcfService/BajaCuenta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BuscarCuenta">
+      <soap:operation soapAction="http://tempuri.org/IWcfService/BuscarCuenta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarTodasCuentas">
+      <soap:operation soapAction="http://tempuri.org/IWcfService/ListarTodasCuentas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarCuentaCorriente">
+      <soap:operation soapAction="http://tempuri.org/IWcfService/ListarCuentaCorriente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarMovimientosDeCuenta">
+      <soap:operation soapAction="http://tempuri.org/IWcfService/ListarMovimientosDeCuenta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LogueoEmpleado">
+      <soap:operation soapAction="http://tempuri.org/IWcfService/LogueoEmpleado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AltaMovimiento">
+      <soap:operation soapAction="http://tempuri.org/IWcfService/AltaMovimiento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarTodosMovimientos">
+      <soap:operation soapAction="http://tempuri.org/IWcfService/ListarTodosMovimientos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AltaPrestamo">
+      <soap:operation soapAction="http://tempuri.org/IWcfService/AltaPrestamo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListoPrestamosCliente">
+      <soap:operation soapAction="http://tempuri.org/IWcfService/ListoPrestamosCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListoTodosPrestamos">
+      <soap:operation soapAction="http://tempuri.org/IWcfService/ListoTodosPrestamos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WcfService">
+    <wsdl:port name="BasicHttpBinding_IWcfService" binding="tns:BasicHttpBinding_IWcfService">
+      <soap:address location="http://pc31/ServicioWcf/WcfService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

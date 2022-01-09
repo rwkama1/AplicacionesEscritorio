@@ -1,0 +1,21 @@
+C:\Users\sistemas\Desktop\08 - CasoEstudioFinal\3-Persistencia\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sistemas\Desktop\08 - CasoEstudioFinal\3-Persistencia\obj\Debug\Persistencia.pdb
+C:\Users\sistemas\Desktop\08 - CasoEstudioFinal\3-Persistencia\bin\Debug\Persistencia.dll
+C:\Users\sistemas\Desktop\08 - CasoEstudioFinal\3-Persistencia\bin\Debug\Persistencia.pdb
+C:\Users\sistemas\Desktop\08 - CasoEstudioFinal\3-Persistencia\bin\Debug\EntidadesCompartidas.dll
+C:\Users\sistemas\Desktop\08 - CasoEstudioFinal\3-Persistencia\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\sistemas\Desktop\08 - CasoEstudioFinal\3-Persistencia\obj\Debug\Persistencia.dll
+C:\Users\popi\Desktop\08 - CasoEstudioFinal\3-Persistencia\bin\Debug\Persistencia.dll
+C:\Users\popi\Desktop\08 - CasoEstudioFinal\3-Persistencia\bin\Debug\Persistencia.pdb
+C:\Users\popi\Desktop\08 - CasoEstudioFinal\3-Persistencia\bin\Debug\EntidadesCompartidas.dll
+C:\Users\popi\Desktop\08 - CasoEstudioFinal\3-Persistencia\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\popi\Desktop\08 - CasoEstudioFinal\3-Persistencia\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\popi\Desktop\08 - CasoEstudioFinal\3-Persistencia\obj\Debug\Persistencia.dll
+C:\Users\popi\Desktop\08 - CasoEstudioFinal\3-Persistencia\obj\Debug\Persistencia.pdb
+F:\2 ndo año analista de sistemas\Aplicaciones Escritorio\08 - CasoEstudioFinal\3-Persistencia\bin\Debug\Persistencia.dll
+F:\2 ndo año analista de sistemas\Aplicaciones Escritorio\08 - CasoEstudioFinal\3-Persistencia\bin\Debug\Persistencia.pdb
+F:\2 ndo año analista de sistemas\Aplicaciones Escritorio\08 - CasoEstudioFinal\3-Persistencia\bin\Debug\EntidadesCompartidas.dll
+F:\2 ndo año analista de sistemas\Aplicaciones Escritorio\08 - CasoEstudioFinal\3-Persistencia\bin\Debug\EntidadesCompartidas.pdb
+F:\2 ndo año analista de sistemas\Aplicaciones Escritorio\08 - CasoEstudioFinal\3-Persistencia\obj\Debug\ResolveAssemblyReference.cache
+F:\2 ndo año analista de sistemas\Aplicaciones Escritorio\08 - CasoEstudioFinal\3-Persistencia\obj\Debug\Persistencia.dll
+F:\2 ndo año analista de sistemas\Aplicaciones Escritorio\08 - CasoEstudioFinal\3-Persistencia\obj\Debug\Persistencia.pdb

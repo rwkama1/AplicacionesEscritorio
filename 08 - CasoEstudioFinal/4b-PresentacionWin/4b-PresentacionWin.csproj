@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A51B2915-FD9A-44A7-A843-3D34F1FFD0BA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PresentacionWin</RootNamespace>
+    <AssemblyName>PresentacionWin</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmClientes.Designer.cs">
+      <DependentUpon>FrmClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCuentaCorriente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCuentaCorriente.Designer.cs">
+      <DependentUpon>FrmCuentaCorriente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListadoClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListadoClientes.Designer.cs">
+      <DependentUpon>FrmListadoClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListadoCuenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListadoCuenta.designer.cs">
+      <DependentUpon>FrmListadoCuenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListadoMovimientos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListadoMovimientos.Designer.cs">
+      <DependentUpon>FrmListadoMovimientos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListadoPrestamos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListadoPrestamos.Designer.cs">
+      <DependentUpon>FrmListadoPrestamos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogueo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogueo.Designer.cs">
+      <DependentUpon>FrmLogueo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMovimientos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMovimientos.Designer.cs">
+      <DependentUpon>FrmMovimientos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrestamos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrestamos.Designer.cs">
+      <DependentUpon>FrmPrestamos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrincipal.Designer.cs">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Web References\ServicioWeb\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FrmClientes.resx">
+      <DependentUpon>FrmClientes.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCuentaCorriente.resx">
+      <DependentUpon>FrmCuentaCorriente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListadoClientes.resx">
+      <DependentUpon>FrmListadoClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListadoCuenta.resx">
+      <DependentUpon>FrmListadoCuenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListadoMovimientos.resx">
+      <DependentUpon>FrmListadoMovimientos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListadoPrestamos.resx">
+      <DependentUpon>FrmListadoPrestamos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogueo.resx">
+      <DependentUpon>FrmLogueo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMovimientos.resx">
+      <DependentUpon>FrmMovimientos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrestamos.resx">
+      <DependentUpon>FrmPrestamos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Web References\ServicioWeb\Cliente.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ServicioWeb\Cuenta.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ServicioWeb\CuentaCAhorro.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ServicioWeb\CuentaCorriente.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ServicioWeb\Empleado.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ServicioWeb\MiServicio.wsdl" />
+    <None Include="Web References\ServicioWeb\Movimiento.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ServicioWeb\Prestamo.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ServicioWeb\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Imagenes\cancelar.png" />
+    <Content Include="Imagenes\eliminar.png" />
+    <Content Include="Imagenes\modificar.bmp" />
+    <Content Include="Imagenes\nuevo.bmp" />
+    <None Include="Web References\ServicioWeb\MiServicio.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\4a-ControlesWin\4a-ControlesWin.csproj">
+      <Project>{8D3FB7BF-FFE3-4422-A290-4FF3D2BAB7D9}</Project>
+      <Name>4a-ControlesWin</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://localhost/SWFinal/MiServicio.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\ServicioWeb\</RelPath>
+      <UpdateFromURL>http://localhost/SWFinal/MiServicio.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>PresentacionWin_ServicioWeb_MiServicio</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

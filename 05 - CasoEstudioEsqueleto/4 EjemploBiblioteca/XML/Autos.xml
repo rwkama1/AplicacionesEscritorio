@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Autos>
+  <Auto>
+    <Matricula>zbc994</Matricula>
+    <Marca>Marcauno</Marca>
+    <Modelo>Modelouno</Modelo>
+    <Precio>11111</Precio>
+    <Dueño>11111</Dueño>
+  </Auto>
+  <Auto>
+    <Matricula>sij777</Matricula>
+    <Marca>Marcatres</Marca>
+    <Modelo>Modelotres</Modelo>
+    <Precio>0</Precio>
+    <Dueño>33333</Dueño>
+  </Auto>
+  <Auto>
+    <Matricula>asd565</Matricula>
+    <Modelo>asfasf</Modelo>
+    <Precio>89</Precio>
+    <Marca>asdas</Marca>
+    <Dueño>22222</Dueño>
+  </Auto>
+</Autos>

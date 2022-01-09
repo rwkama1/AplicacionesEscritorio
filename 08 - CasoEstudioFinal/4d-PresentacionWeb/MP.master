@@ -1,0 +1,99 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MP.master.cs" Inherits="MP" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+  
+    <style type="text/css">
+        .style1
+        {
+            width: 200px;
+        }
+    </style>
+  
+    </head>
+<body style="height: 450px">
+    <form id="form1" runat="server">
+            <table align="left" style="width: 100%;">
+            <tr>
+                    <td class="style1">
+                        <asp:Button id="BtnSalir" runat="server" Text="Desloguearse" 
+                            onclick="BtnSalir_Click" />
+                        <br />
+                    </td>
+
+                    <td>
+                       .
+                    </td>
+            </tr>
+            <tr>
+                <td class="style1"> 
+                                     <asp:TreeView ID="Menu" runat="server" ShowLines="True" Width="230px">
+                            <Nodes>
+                                <asp:TreeNode Text="Listado Cuentas / Movimientos" 
+                                    Value="Listado Clientes con Telefonos" NavigateUrl="~/ListadoCuentas.aspx">
+                                </asp:TreeNode>
+                                <asp:TreeNode NavigateUrl="~/ListadoMovimientosXml.aspx" 
+                                    Text="Listado Movimientos (XPath)" Value="Listado Movimientos Xml">
+                                </asp:TreeNode>
+                                <asp:TreeNode NavigateUrl="~/ListadoMovimientosLinq.aspx" 
+                                    Text="Listado Movimientos (LinQ)" Value="Listado Movimientos (LinQ)">
+                                </asp:TreeNode>
+                                <asp:TreeNode Text="Prestamos" Value="Solicitar Prestamo" 
+                                    NavigateUrl="~/SolicitarPrestamo.aspx">
+                                </asp:TreeNode>
+                            </Nodes>
+                        </asp:TreeView>
+
+                </td>
+            <td >
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                           <br />
+                           <br />
+                           <br />
+                           <br />
+                           <br />
+                           <br />
+                           <br />
+                           <br />
+                           <br />
+                           <br />
+                           <br />
+                           <br />
+                           <br />
+                           <br />
+                           <br />
+                           <br />
+                           <br />
+                           <br />
+         <br />
+                        </asp:ContentPlaceHolder>
+                       </td>
+                </tr>
+            </table>
+           
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+    </form>
+</body>
+</html>

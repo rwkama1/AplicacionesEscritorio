@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PresentacionWin.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="PresentacionWin_ResServicioArticulos_ServicioArticulos" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/WSArticulos/ServicioArticulos.asmx</Value>
+    </Setting>
+    <Setting Name="PresentacionWin_Windows_ServicioArticulos" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://pc31/WSArticulos/ServicioArticulos.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="5ef0f45a-c556-44bc-a40f-489d9d51fbb4" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://pc31/ServicioWcf/WcfService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WcfService.xsd" MetadataType="Schema" ID="796f75ba-dc52-4490-af82-79f8154e1fdd" SourceId="1" SourceUrl="http://pc31/ServicioWcf/WcfService.svc?xsd=xsd2" />
+    <MetadataFile FileName="WcfService.disco" MetadataType="Disco" ID="9a08e9d6-5fa9-4ad1-9806-b5530979ccb6" SourceId="1" SourceUrl="http://pc31/ServicioWcf/WcfService.svc?disco" />
+    <MetadataFile FileName="WcfService1.xsd" MetadataType="Schema" ID="8f514062-2335-4044-89f1-f24fcbfa7ab9" SourceId="1" SourceUrl="http://pc31/ServicioWcf/WcfService.svc?xsd=xsd1" />
+    <MetadataFile FileName="WcfService2.xsd" MetadataType="Schema" ID="cebaa13e-1ab4-4698-a23d-8092414efd7e" SourceId="1" SourceUrl="http://pc31/ServicioWcf/WcfService.svc?xsd=xsd0" />
+    <MetadataFile FileName="WcfService.wsdl" MetadataType="Wsdl" ID="c4ae9249-08ea-4d84-afc1-c803744a53db" SourceId="1" SourceUrl="http://pc31/ServicioWcf/WcfService.svc?wsdl" />
+    <MetadataFile FileName="WcfService3.xsd" MetadataType="Schema" ID="7b771dfc-274b-46e6-a5f1-1e8b3a561f0c" SourceId="1" SourceUrl="http://pc31/ServicioWcf/WcfService.svc?xsd=xsd3" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

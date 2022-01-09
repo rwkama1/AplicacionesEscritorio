@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Biblioteca>
+  <Autor>
+    <codigo>123</codigo>
+    <Nombre>Shakespeare</Nombre>
+  </Autor>
+  <Autor>
+    <codigo>456</codigo>
+    <Nombre>Dan Brown</Nombre>
+  </Autor>
+</Biblioteca>

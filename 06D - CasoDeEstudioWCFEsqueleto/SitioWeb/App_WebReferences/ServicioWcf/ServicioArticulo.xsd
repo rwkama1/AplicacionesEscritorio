@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost/MiServicioWcf/ServicioArticulo.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" />
+  <xs:element name="AgregarArticulo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="A" nillable="true" type="q1:Articulo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AgregarArticuloResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EliminarArticulo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="A" nillable="true" type="q2:Articulo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EliminarArticuloResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModificarArticulos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="A" nillable="true" type="q3:Articulo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModificarArticulosResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BuscarArticulo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="pCodigo" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BuscarArticuloResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="BuscarArticuloResult" nillable="true" type="q4:Articulo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListarArticulos">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListarArticulosResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" minOccurs="0" name="ListarArticulosResult" nillable="true" type="q5:ArrayOfArticulo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

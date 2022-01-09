@@ -1,0 +1,14 @@
+C:\Users\popi\Desktop\10 - CasoEstudioFinal\Controles\bin\Debug\Controles.dll
+C:\Users\popi\Desktop\10 - CasoEstudioFinal\Controles\bin\Debug\Controles.pdb
+C:\Users\popi\Desktop\10 - CasoEstudioFinal\Controles\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\popi\Desktop\10 - CasoEstudioFinal\Controles\obj\Debug\Controles.dll
+C:\Users\popi\Desktop\10 - CasoEstudioFinal\Controles\obj\Debug\Controles.pdb
+C:\Users\popi\Desktop\10 - CasoEstudioFinal\Controles\bin\Debug\EntidadesCompartidas.dll
+C:\Users\popi\Desktop\10 - CasoEstudioFinal\Controles\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\popi\Desktop\08 - CasoEstudioFinal\Controles\bin\Debug\Controles.dll
+C:\Users\popi\Desktop\08 - CasoEstudioFinal\Controles\bin\Debug\Controles.pdb
+C:\Users\popi\Desktop\08 - CasoEstudioFinal\Controles\bin\Debug\EntidadesCompartidas.dll
+C:\Users\popi\Desktop\08 - CasoEstudioFinal\Controles\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\popi\Desktop\08 - CasoEstudioFinal\Controles\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\popi\Desktop\08 - CasoEstudioFinal\Controles\obj\Debug\Controles.dll
+C:\Users\popi\Desktop\08 - CasoEstudioFinal\Controles\obj\Debug\Controles.pdb

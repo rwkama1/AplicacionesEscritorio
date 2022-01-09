@@ -1,0 +1,77 @@
+D:\bios\2º año carrera\material mio\01A - CasoEstudioFachada\Persistencia\obj\Debug\ResolveAssemblyReference.cache
+D:\bios\2º año carrera\material mio\01A - CasoEstudioFachada\Persistencia\bin\Debug\Persistencia.dll
+D:\bios\2º año carrera\material mio\01A - CasoEstudioFachada\Persistencia\bin\Debug\Persistencia.pdb
+D:\bios\2º año carrera\material mio\01A - CasoEstudioFachada\Persistencia\bin\Debug\EntidadesCompartidas.dll
+D:\bios\2º año carrera\material mio\01A - CasoEstudioFachada\Persistencia\bin\Debug\EntidadesCompartidas.pdb
+D:\bios\2º año carrera\material mio\01A - CasoEstudioFachada\Persistencia\obj\Debug\Persistencia.dll
+D:\bios\2º año carrera\material mio\01A - CasoEstudioFachada\Persistencia\obj\Debug\Persistencia.pdb
+D:\bios\2º año carrera\material mio\01B - CasoEstudioFachada\Persistencia\bin\Debug\Persistencia.dll
+D:\bios\2º año carrera\material mio\01B - CasoEstudioFachada\Persistencia\bin\Debug\Persistencia.pdb
+D:\bios\2º año carrera\material mio\01B - CasoEstudioFachada\Persistencia\bin\Debug\EntidadesCompartidas.dll
+D:\bios\2º año carrera\material mio\01B - CasoEstudioFachada\Persistencia\bin\Debug\EntidadesCompartidas.pdb
+D:\bios\2º año carrera\material mio\01B - CasoEstudioFachada\Persistencia\obj\Debug\ResolveAssemblyReference.cache
+D:\bios\2º año carrera\material mio\01B - CasoEstudioFachada\Persistencia\obj\Debug\Persistencia.dll
+D:\bios\2º año carrera\material mio\01B - CasoEstudioFachada\Persistencia\obj\Debug\Persistencia.pdb
+D:\bios\2º año carrera\material mio\01C - CasoEstudioFachada\Persistencia\obj\Debug\ResolveAssemblyReference.cache
+D:\bios\2º año carrera\material mio\01C - CasoEstudioFachada\Persistencia\obj\Debug\Persistencia.dll
+D:\bios\2º año carrera\material mio\01C - CasoEstudioFachada\Persistencia\obj\Debug\Persistencia.pdb
+D:\bios\2º año carrera\material mio\01C - CasoEstudioFachada\Persistencia\bin\Debug\Persistencia.dll
+D:\bios\2º año carrera\material mio\01C - CasoEstudioFachada\Persistencia\bin\Debug\Persistencia.pdb
+D:\bios\2º año carrera\material mio\01C - CasoEstudioFachada\Persistencia\bin\Debug\EntidadesCompartidas.dll
+D:\bios\2º año carrera\material mio\01C - CasoEstudioFachada\Persistencia\bin\Debug\EntidadesCompartidas.pdb
+D:\bios\2º año carrera\material mio\02 - CasoEstudioWebService\Persistencia\bin\Debug\Persistencia.dll
+D:\bios\2º año carrera\material mio\02 - CasoEstudioWebService\Persistencia\bin\Debug\Persistencia.pdb
+D:\bios\2º año carrera\material mio\02 - CasoEstudioWebService\Persistencia\bin\Debug\EntidadesCompartidas.dll
+D:\bios\2º año carrera\material mio\02 - CasoEstudioWebService\Persistencia\bin\Debug\EntidadesCompartidas.pdb
+D:\bios\2º año carrera\material mio\02 - CasoEstudioWebService\Persistencia\obj\Debug\ResolveAssemblyReference.cache
+D:\bios\2º año carrera\material mio\02 - CasoEstudioWebService\Persistencia\obj\Debug\Persistencia.dll
+D:\bios\2º año carrera\material mio\02 - CasoEstudioWebService\Persistencia\obj\Debug\Persistencia.pdb
+C:\Documents and Settings\Administrador\Escritorio\11A - CasoEstudioWebService\Persistencia\bin\Debug\Persistencia.dll
+C:\Documents and Settings\Administrador\Escritorio\11A - CasoEstudioWebService\Persistencia\bin\Debug\Persistencia.pdb
+C:\Documents and Settings\Administrador\Escritorio\11A - CasoEstudioWebService\Persistencia\bin\Debug\EntidadesCompartidas.dll
+C:\Documents and Settings\Administrador\Escritorio\11A - CasoEstudioWebService\Persistencia\bin\Debug\EntidadesCompartidas.pdb
+C:\Documents and Settings\Administrador\Escritorio\11A - CasoEstudioWebService\Persistencia\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Escritorio\11A - CasoEstudioWebService\Persistencia\obj\Debug\Persistencia.dll
+C:\Documents and Settings\Administrador\Escritorio\11A - CasoEstudioWebService\Persistencia\obj\Debug\Persistencia.pdb
+C:\Users\popi\Desktop\CasoDeEstudio\12A - CasoEstudioWebService\Persistencia\bin\Debug\Persistencia.dll
+C:\Users\popi\Desktop\CasoDeEstudio\12A - CasoEstudioWebService\Persistencia\bin\Debug\Persistencia.pdb
+C:\Users\popi\Desktop\CasoDeEstudio\12A - CasoEstudioWebService\Persistencia\bin\Debug\EntidadesCompartidas.dll
+C:\Users\popi\Desktop\CasoDeEstudio\12A - CasoEstudioWebService\Persistencia\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\popi\Desktop\CasoDeEstudio\12A - CasoEstudioWebService\Persistencia\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\popi\Desktop\CasoDeEstudio\12A - CasoEstudioWebService\Persistencia\obj\Debug\Persistencia.dll
+C:\Users\popi\Desktop\CasoDeEstudio\12A - CasoEstudioWebService\Persistencia\obj\Debug\Persistencia.pdb
+C:\Users\popi\Desktop\06B - CasoEstudioWebService\Persistencia\bin\Debug\Persistencia.dll
+C:\Users\popi\Desktop\06B - CasoEstudioWebService\Persistencia\bin\Debug\Persistencia.pdb
+C:\Users\popi\Desktop\06B - CasoEstudioWebService\Persistencia\bin\Debug\EntidadesCompartidas.dll
+C:\Users\popi\Desktop\06B - CasoEstudioWebService\Persistencia\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\popi\Desktop\06B - CasoEstudioWebService\Persistencia\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\popi\Desktop\06B - CasoEstudioWebService\Persistencia\obj\Debug\Persistencia.dll
+C:\Users\popi\Desktop\06B - CasoEstudioWebService\Persistencia\obj\Debug\Persistencia.pdb
+C:\Users\popi\Desktop\06B - CasoEstudioWebServiceEsqueleto\Persistencia\bin\Debug\Persistencia.dll
+C:\Users\popi\Desktop\06B - CasoEstudioWebServiceEsqueleto\Persistencia\bin\Debug\Persistencia.pdb
+C:\Users\popi\Desktop\06B - CasoEstudioWebServiceEsqueleto\Persistencia\bin\Debug\EntidadesCompartidas.dll
+C:\Users\popi\Desktop\06B - CasoEstudioWebServiceEsqueleto\Persistencia\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\popi\Desktop\06B - CasoEstudioWebServiceEsqueleto\Persistencia\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\popi\Desktop\06B - CasoEstudioWebServiceEsqueleto\Persistencia\obj\Debug\Persistencia.dll
+C:\Users\popi\Desktop\06B - CasoEstudioWebServiceEsqueleto\Persistencia\obj\Debug\Persistencia.pdb
+\\POPI-PC\0 - Disco Trabajo\01 - Bios\2 - Analista Programador Net\2 - Applicaciones Distribuidas 2013\3 - Casos de Estudio  - Esqueleto\06B - CasoEstudioWebServiceEsqueleto\Persistencia\bin\Debug\Persistencia.dll
+\\POPI-PC\0 - Disco Trabajo\01 - Bios\2 - Analista Programador Net\2 - Applicaciones Distribuidas 2013\3 - Casos de Estudio  - Esqueleto\06B - CasoEstudioWebServiceEsqueleto\Persistencia\bin\Debug\Persistencia.pdb
+\\POPI-PC\0 - Disco Trabajo\01 - Bios\2 - Analista Programador Net\2 - Applicaciones Distribuidas 2013\3 - Casos de Estudio  - Esqueleto\06B - CasoEstudioWebServiceEsqueleto\Persistencia\bin\Debug\EntidadesCompartidas.dll
+\\POPI-PC\0 - Disco Trabajo\01 - Bios\2 - Analista Programador Net\2 - Applicaciones Distribuidas 2013\3 - Casos de Estudio  - Esqueleto\06B - CasoEstudioWebServiceEsqueleto\Persistencia\bin\Debug\EntidadesCompartidas.pdb
+\\POPI-PC\0 - Disco Trabajo\01 - Bios\2 - Analista Programador Net\2 - Applicaciones Distribuidas 2013\3 - Casos de Estudio  - Esqueleto\06B - CasoEstudioWebServiceEsqueleto\Persistencia\obj\Debug\ResolveAssemblyReference.cache
+\\POPI-PC\0 - Disco Trabajo\01 - Bios\2 - Analista Programador Net\2 - Applicaciones Distribuidas 2013\3 - Casos de Estudio  - Esqueleto\06B - CasoEstudioWebServiceEsqueleto\Persistencia\obj\Debug\Persistencia.dll
+\\POPI-PC\0 - Disco Trabajo\01 - Bios\2 - Analista Programador Net\2 - Applicaciones Distribuidas 2013\3 - Casos de Estudio  - Esqueleto\06B - CasoEstudioWebServiceEsqueleto\Persistencia\obj\Debug\Persistencia.pdb
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueleto\Persistencia\bin\Debug\Persistencia.dll
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueleto\Persistencia\bin\Debug\Persistencia.pdb
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueleto\Persistencia\bin\Debug\EntidadesCompartidas.dll
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueleto\Persistencia\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueleto\Persistencia\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueleto\Persistencia\obj\Debug\Persistencia.dll
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueleto\Persistencia\obj\Debug\Persistencia.pdb
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueletoCarlosRodriguez\Persistencia\bin\Debug\Persistencia.dll
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueletoCarlosRodriguez\Persistencia\bin\Debug\Persistencia.pdb
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueletoCarlosRodriguez\Persistencia\bin\Debug\EntidadesCompartidas.dll
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueletoCarlosRodriguez\Persistencia\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueletoCarlosRodriguez\Persistencia\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueletoCarlosRodriguez\Persistencia\obj\Debug\Persistencia.dll
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueletoCarlosRodriguez\Persistencia\obj\Debug\Persistencia.pdb

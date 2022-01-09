@@ -1,0 +1,11 @@
+C:\Users\sistemas\Desktop\06D - CasoDeEstudioWCFEsqueleto\MiServicioWcf\bin\MiServicioWcf.dll
+C:\Users\sistemas\Desktop\06D - CasoDeEstudioWCFEsqueleto\MiServicioWcf\bin\MiServicioWcf.pdb
+C:\Users\sistemas\Desktop\06D - CasoDeEstudioWCFEsqueleto\MiServicioWcf\bin\EntidadesCompartidas.dll
+C:\Users\sistemas\Desktop\06D - CasoDeEstudioWCFEsqueleto\MiServicioWcf\bin\Logica.dll
+C:\Users\sistemas\Desktop\06D - CasoDeEstudioWCFEsqueleto\MiServicioWcf\bin\Persistencia.dll
+C:\Users\sistemas\Desktop\06D - CasoDeEstudioWCFEsqueleto\MiServicioWcf\bin\EntidadesCompartidas.pdb
+C:\Users\sistemas\Desktop\06D - CasoDeEstudioWCFEsqueleto\MiServicioWcf\bin\Logica.pdb
+C:\Users\sistemas\Desktop\06D - CasoDeEstudioWCFEsqueleto\MiServicioWcf\bin\Persistencia.pdb
+C:\Users\sistemas\Desktop\06D - CasoDeEstudioWCFEsqueleto\MiServicioWcf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sistemas\Desktop\06D - CasoDeEstudioWCFEsqueleto\MiServicioWcf\obj\Debug\MiServicioWcf.dll
+C:\Users\sistemas\Desktop\06D - CasoDeEstudioWCFEsqueleto\MiServicioWcf\obj\Debug\MiServicioWcf.pdb

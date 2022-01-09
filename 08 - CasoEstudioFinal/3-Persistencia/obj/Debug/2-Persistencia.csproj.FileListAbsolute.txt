@@ -1,0 +1,14 @@
+C:\Users\popi\Desktop\08 - CasoEstudioFinal\2-Persistencia\bin\Debug\Persistencia.dll
+C:\Users\popi\Desktop\08 - CasoEstudioFinal\2-Persistencia\bin\Debug\Persistencia.pdb
+C:\Users\popi\Desktop\08 - CasoEstudioFinal\2-Persistencia\bin\Debug\EntidadesCompartidas.dll
+C:\Users\popi\Desktop\08 - CasoEstudioFinal\2-Persistencia\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\popi\Desktop\08 - CasoEstudioFinal\2-Persistencia\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\popi\Desktop\08 - CasoEstudioFinal\2-Persistencia\obj\Debug\Persistencia.dll
+C:\Users\popi\Desktop\08 - CasoEstudioFinal\2-Persistencia\obj\Debug\Persistencia.pdb
+C:\Users\sistemas\Desktop\08 - CasoEstudioFinal\2-Persistencia\bin\Debug\Persistencia.dll
+C:\Users\sistemas\Desktop\08 - CasoEstudioFinal\2-Persistencia\bin\Debug\Persistencia.pdb
+C:\Users\sistemas\Desktop\08 - CasoEstudioFinal\2-Persistencia\bin\Debug\EntidadesCompartidas.dll
+C:\Users\sistemas\Desktop\08 - CasoEstudioFinal\2-Persistencia\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\sistemas\Desktop\08 - CasoEstudioFinal\2-Persistencia\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sistemas\Desktop\08 - CasoEstudioFinal\2-Persistencia\obj\Debug\Persistencia.dll
+C:\Users\sistemas\Desktop\08 - CasoEstudioFinal\2-Persistencia\obj\Debug\Persistencia.pdb

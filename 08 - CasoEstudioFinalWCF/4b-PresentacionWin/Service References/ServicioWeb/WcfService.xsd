@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/EntidadesCompartidas" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://pc31/ServicioWcf/WcfService.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:complexType name="Cliente">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DirCli" nillable="true" type="xs:string" />
+      <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ListaTelefonos" nillable="true" type="q1:ArrayOfstring" />
+      <xs:element minOccurs="0" name="NomCli" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NumCli" type="xs:int" />
+      <xs:element minOccurs="0" name="PassCli" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UsuCli" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Cliente" nillable="true" type="tns:Cliente" />
+  <xs:complexType name="ArrayOfCliente">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Cliente" nillable="true" type="tns:Cliente" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCliente" nillable="true" type="tns:ArrayOfCliente" />
+  <xs:complexType name="ArrayOfCuenta">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Cuenta" nillable="true" type="tns:Cuenta" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCuenta" nillable="true" type="tns:ArrayOfCuenta" />
+  <xs:complexType name="Cuenta">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="MiCliente" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NumCta" type="xs:int" />
+      <xs:element minOccurs="0" name="SaldoCuenta" type="xs:double" />
+      <xs:element minOccurs="0" name="TipoCuenta" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UnCliente" nillable="true" type="tns:Cliente" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Cuenta" nillable="true" type="tns:Cuenta" />
+  <xs:complexType name="CuentaCAhorro">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:Cuenta">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="CostoMovsCta" type="xs:double" />
+          <xs:element minOccurs="0" name="MovsCta" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="CuentaCAhorro" nillable="true" type="tns:CuentaCAhorro" />
+  <xs:complexType name="CuentaCorriente">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:Cuenta">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="MinimoCta" type="xs:double" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="CuentaCorriente" nillable="true" type="tns:CuentaCorriente" />
+  <xs:complexType name="ArrayOfCuentaCorriente">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CuentaCorriente" nillable="true" type="tns:CuentaCorriente" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCuentaCorriente" nillable="true" type="tns:ArrayOfCuentaCorriente" />
+  <xs:complexType name="ArrayOfMovimiento">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Movimiento" nillable="true" type="tns:Movimiento" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMovimiento" nillable="true" type="tns:ArrayOfMovimiento" />
+  <xs:complexType name="Movimiento">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="FechaMov" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="IdMov" type="xs:int" />
+      <xs:element minOccurs="0" name="MontoMov" type="xs:double" />
+      <xs:element minOccurs="0" name="TipoMov" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UnaCuenta" nillable="true" type="tns:Cuenta" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Movimiento" nillable="true" type="tns:Movimiento" />
+  <xs:complexType name="Empleado">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CiEmp" type="xs:int" />
+      <xs:element minOccurs="0" name="NomEmp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PassEmp" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Empleado" nillable="true" type="tns:Empleado" />
+  <xs:complexType name="Prestamo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Aprobado" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Fecha" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Monto" type="xs:double" />
+      <xs:element minOccurs="0" name="UnCliente" nillable="true" type="tns:Cliente" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Prestamo" nillable="true" type="tns:Prestamo" />
+  <xs:complexType name="ArrayOfPrestamo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Prestamo" nillable="true" type="tns:Prestamo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPrestamo" nillable="true" type="tns:ArrayOfPrestamo" />
+</xs:schema>

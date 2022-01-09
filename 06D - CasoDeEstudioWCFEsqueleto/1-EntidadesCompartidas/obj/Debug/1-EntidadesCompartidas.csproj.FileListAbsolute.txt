@@ -1,0 +1,15 @@
+D:\--------------------Respaldar\06D - CasoDeEstudioWCF\1-EntidadesCompartidas\bin\Debug\EntidadesCompartidas.dll
+D:\--------------------Respaldar\06D - CasoDeEstudioWCF\1-EntidadesCompartidas\bin\Debug\EntidadesCompartidas.pdb
+D:\--------------------Respaldar\06D - CasoDeEstudioWCF\1-EntidadesCompartidas\obj\Debug\ResolveAssemblyReference.cache
+D:\--------------------Respaldar\06D - CasoDeEstudioWCF\1-EntidadesCompartidas\obj\Debug\EntidadesCompartidas.dll
+D:\--------------------Respaldar\06D - CasoDeEstudioWCF\1-EntidadesCompartidas\obj\Debug\EntidadesCompartidas.pdb
+D:\--------------------Respaldar\06D - CasoDeEstudioWCFEsqueleto\1-EntidadesCompartidas\bin\Debug\EntidadesCompartidas.dll
+D:\--------------------Respaldar\06D - CasoDeEstudioWCFEsqueleto\1-EntidadesCompartidas\bin\Debug\EntidadesCompartidas.pdb
+D:\--------------------Respaldar\06D - CasoDeEstudioWCFEsqueleto\1-EntidadesCompartidas\obj\Debug\ResolveAssemblyReference.cache
+D:\--------------------Respaldar\06D - CasoDeEstudioWCFEsqueleto\1-EntidadesCompartidas\obj\Debug\EntidadesCompartidas.dll
+D:\--------------------Respaldar\06D - CasoDeEstudioWCFEsqueleto\1-EntidadesCompartidas\obj\Debug\EntidadesCompartidas.pdb
+C:\Users\sistemas\Desktop\06D - CasoDeEstudioWCFEsqueleto\1-EntidadesCompartidas\bin\Debug\EntidadesCompartidas.dll
+C:\Users\sistemas\Desktop\06D - CasoDeEstudioWCFEsqueleto\1-EntidadesCompartidas\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\sistemas\Desktop\06D - CasoDeEstudioWCFEsqueleto\1-EntidadesCompartidas\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sistemas\Desktop\06D - CasoDeEstudioWCFEsqueleto\1-EntidadesCompartidas\obj\Debug\EntidadesCompartidas.dll
+C:\Users\sistemas\Desktop\06D - CasoDeEstudioWCFEsqueleto\1-EntidadesCompartidas\obj\Debug\EntidadesCompartidas.pdb

@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MP.master.cs" Inherits="MP" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+ 
+</head>
+<body>
+    <form id="form1" runat="server">
+          <table border="1" style="width: 958px" >
+            <tr>
+                <td colspan="2" style="text-align: center"> <span class="style2">Ejemplo Completo de uso de Tecnologia XML</span></td>
+            </tr>
+            <tr>
+                <td width="50px" >
+                    <asp:TreeView ID="Menu" runat="server" ImageSet="Arrows" >
+                        <HoverNodeStyle Font-Underline="True" ForeColor="#5555DD" />
+                        <Nodes>
+                            <asp:TreeNode Text="XML Completo" Value="XML Completo">
+                                <asp:TreeNode Text="ABM Datos" Value="ABM Datos" NavigateUrl="~/AbmLibro.aspx"></asp:TreeNode>
+                                <asp:TreeNode Text="Busqueda (XPath)" Value="Busqueda (XPath)" 
+                                    NavigateUrl="~/BusquedaLibros.aspx"></asp:TreeNode>
+                                <asp:TreeNode Text="Listado (XSLT)" Value="Listado (XSLT)" 
+                                    NavigateUrl="~/ListarLibros.aspx"></asp:TreeNode>
+                                <asp:TreeNode NavigateUrl="~/Default.aspx" Text="Inicio" Value="Inicio">
+                                </asp:TreeNode>
+                            </asp:TreeNode>
+                        </Nodes>
+                        <NodeStyle Font-Names="Verdana" Font-Size="8pt" ForeColor="Black" 
+                            HorizontalPadding="5px" NodeSpacing="0px" VerticalPadding="0px" />
+                        <ParentNodeStyle Font-Bold="False" />
+                        <SelectedNodeStyle Font-Underline="True" ForeColor="#5555DD" 
+                            HorizontalPadding="0px" VerticalPadding="0px" />
+                    </asp:TreeView>
+                </td>
+               <td>
+                     <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server"> </asp:ContentPlaceHolder>
+               </td>
+            </tr>
+         </table>
+
+    </form>
+</body>
+</html>

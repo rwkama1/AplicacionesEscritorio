@@ -1,0 +1,4 @@
+<asp:Button runat="server" BackColor="#CC6699" Font-Bold="True" Font-Italic="True" ForeColor="Lime" />
+
+<asp:TextBox runat="server" BackColor="#FFCCFF" ForeColor="#990033" Height="25px"/>
+ 

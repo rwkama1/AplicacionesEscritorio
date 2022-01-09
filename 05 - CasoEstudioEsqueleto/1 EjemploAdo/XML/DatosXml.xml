@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="yes"?>
+<Ventas>
+   <Familias>
+    <CodFam>5</CodFam>
+    <NomFam>Dulces</NomFam>
+    <DescFam> Productos para engordar</DescFam>
+  </Familias>
+  <Familias>
+    <CodFam>6</CodFam>
+    <NomFam>Ropa</NomFam>
+    <DescFam>Productos para disfrutar</DescFam>
+  </Familias>
+  <Familias>
+    <CodFam>7</CodFam>
+    <NomFam>Perfumes</NomFam>
+    <DescFam>Productos agradables a la nariz</DescFam>
+  </Familias>
+  <Articulos>
+    <CodArt>123</CodArt>
+    <NomArt>Galletitas de Chocolate</NomArt>
+    <PreArt>100</PreArt>
+    <CodFam>5</CodFam>
+  </Articulos>
+  <Articulos>
+    <CodArt>456</CodArt>
+    <NomArt>Campera</NomArt>
+    <PreArt>3500</PreArt>
+    <CodFam>6</CodFam>
+  </Articulos>
+  <Articulos>
+    <CodArt>789</CodArt>
+    <NomArt>Polo</NomArt>
+    <PreArt>2500</PreArt>
+    <CodFam>7</CodFam>
+  </Articulos>
+</Ventas>

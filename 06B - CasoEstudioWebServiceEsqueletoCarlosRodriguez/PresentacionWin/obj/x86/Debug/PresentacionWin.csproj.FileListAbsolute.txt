@@ -1,0 +1,61 @@
+C:\Users\popi\Desktop\06B - CasoEstudioWebService\PresentacionWin\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\popi\Desktop\06B - CasoEstudioWebService\PresentacionWin\obj\x86\Debug\PresentacionWin.ABMArticulos.resources
+C:\Users\popi\Desktop\06B - CasoEstudioWebService\PresentacionWin\obj\x86\Debug\PresentacionWin.ListarArticulos.resources
+C:\Users\popi\Desktop\06B - CasoEstudioWebService\PresentacionWin\obj\x86\Debug\PresentacionWin.Properties.Resources.resources
+C:\Users\popi\Desktop\06B - CasoEstudioWebService\PresentacionWin\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\popi\Desktop\06B - CasoEstudioWebService\PresentacionWin\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\popi\Desktop\06B - CasoEstudioWebService\PresentacionWin\bin\Debug\PresentacionWin.exe.config
+C:\Users\popi\Desktop\06B - CasoEstudioWebService\PresentacionWin\bin\Debug\PresentacionWin.exe
+C:\Users\popi\Desktop\06B - CasoEstudioWebService\PresentacionWin\bin\Debug\PresentacionWin.pdb
+C:\Users\popi\Desktop\06B - CasoEstudioWebService\PresentacionWin\obj\x86\Debug\PresentacionWin.exe
+C:\Users\popi\Desktop\06B - CasoEstudioWebService\PresentacionWin\obj\x86\Debug\PresentacionWin.pdb
+C:\Users\popi\Desktop\06B - CasoEstudioWebServiceEsqueleto\PresentacionWin\bin\Debug\PresentacionWin.exe.config
+C:\Users\popi\Desktop\06B - CasoEstudioWebServiceEsqueleto\PresentacionWin\bin\Debug\PresentacionWin.exe
+C:\Users\popi\Desktop\06B - CasoEstudioWebServiceEsqueleto\PresentacionWin\bin\Debug\PresentacionWin.pdb
+C:\Users\popi\Desktop\06B - CasoEstudioWebServiceEsqueleto\PresentacionWin\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\popi\Desktop\06B - CasoEstudioWebServiceEsqueleto\PresentacionWin\obj\x86\Debug\PresentacionWin.ABMArticulos.resources
+C:\Users\popi\Desktop\06B - CasoEstudioWebServiceEsqueleto\PresentacionWin\obj\x86\Debug\PresentacionWin.ListarArticulos.resources
+C:\Users\popi\Desktop\06B - CasoEstudioWebServiceEsqueleto\PresentacionWin\obj\x86\Debug\PresentacionWin.Properties.Resources.resources
+C:\Users\popi\Desktop\06B - CasoEstudioWebServiceEsqueleto\PresentacionWin\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\popi\Desktop\06B - CasoEstudioWebServiceEsqueleto\PresentacionWin\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\popi\Desktop\06B - CasoEstudioWebServiceEsqueleto\PresentacionWin\obj\x86\Debug\PresentacionWin.exe
+C:\Users\popi\Desktop\06B - CasoEstudioWebServiceEsqueleto\PresentacionWin\obj\x86\Debug\PresentacionWin.pdb
+\\POPI-PC\0 - Disco Trabajo\01 - Bios\2 - Analista Programador Net\2 - Applicaciones Distribuidas 2013\3 - Casos de Estudio  - Esqueleto\06B - CasoEstudioWebServiceEsqueleto\PresentacionWin\bin\Debug\PresentacionWin.exe.config
+\\POPI-PC\0 - Disco Trabajo\01 - Bios\2 - Analista Programador Net\2 - Applicaciones Distribuidas 2013\3 - Casos de Estudio  - Esqueleto\06B - CasoEstudioWebServiceEsqueleto\PresentacionWin\obj\x86\Debug\PresentacionWin.exe
+\\POPI-PC\0 - Disco Trabajo\01 - Bios\2 - Analista Programador Net\2 - Applicaciones Distribuidas 2013\3 - Casos de Estudio  - Esqueleto\06B - CasoEstudioWebServiceEsqueleto\PresentacionWin\obj\x86\Debug\PresentacionWin.pdb
+\\POPI-PC\0 - Disco Trabajo\01 - Bios\2 - Analista Programador Net\2 - Applicaciones Distribuidas 2013\3 - Casos de Estudio  - Esqueleto\06B - CasoEstudioWebServiceEsqueleto\PresentacionWin\bin\Debug\PresentacionWin.exe
+\\POPI-PC\0 - Disco Trabajo\01 - Bios\2 - Analista Programador Net\2 - Applicaciones Distribuidas 2013\3 - Casos de Estudio  - Esqueleto\06B - CasoEstudioWebServiceEsqueleto\PresentacionWin\bin\Debug\PresentacionWin.pdb
+\\POPI-PC\0 - Disco Trabajo\01 - Bios\2 - Analista Programador Net\2 - Applicaciones Distribuidas 2013\3 - Casos de Estudio  - Esqueleto\06B - CasoEstudioWebServiceEsqueleto\PresentacionWin\obj\x86\Debug\ResolveAssemblyReference.cache
+\\POPI-PC\0 - Disco Trabajo\01 - Bios\2 - Analista Programador Net\2 - Applicaciones Distribuidas 2013\3 - Casos de Estudio  - Esqueleto\06B - CasoEstudioWebServiceEsqueleto\PresentacionWin\obj\x86\Debug\PresentacionWin.ABMArticulos.resources
+\\POPI-PC\0 - Disco Trabajo\01 - Bios\2 - Analista Programador Net\2 - Applicaciones Distribuidas 2013\3 - Casos de Estudio  - Esqueleto\06B - CasoEstudioWebServiceEsqueleto\PresentacionWin\obj\x86\Debug\PresentacionWin.ListarArticulos.resources
+\\POPI-PC\0 - Disco Trabajo\01 - Bios\2 - Analista Programador Net\2 - Applicaciones Distribuidas 2013\3 - Casos de Estudio  - Esqueleto\06B - CasoEstudioWebServiceEsqueleto\PresentacionWin\obj\x86\Debug\PresentacionWin.Properties.Resources.resources
+\\POPI-PC\0 - Disco Trabajo\01 - Bios\2 - Analista Programador Net\2 - Applicaciones Distribuidas 2013\3 - Casos de Estudio  - Esqueleto\06B - CasoEstudioWebServiceEsqueleto\PresentacionWin\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+\\POPI-PC\0 - Disco Trabajo\01 - Bios\2 - Analista Programador Net\2 - Applicaciones Distribuidas 2013\3 - Casos de Estudio  - Esqueleto\06B - CasoEstudioWebServiceEsqueleto\PresentacionWin\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\sistemas\Desktop\06B_-_CasoEstudioWebServiceEsqueleto\06B - CasoEstudioWebServiceEsqueleto\PresentacionWin\bin\Debug\PresentacionWin.exe.config
+C:\Users\sistemas\Desktop\06B_-_CasoEstudioWebServiceEsqueleto\06B - CasoEstudioWebServiceEsqueleto\PresentacionWin\obj\x86\Debug\PresentacionWin.exe
+C:\Users\sistemas\Desktop\06B_-_CasoEstudioWebServiceEsqueleto\06B - CasoEstudioWebServiceEsqueleto\PresentacionWin\obj\x86\Debug\PresentacionWin.pdb
+C:\Users\sistemas\Desktop\WebService\06B_-_CasoEstudioWebServiceEsqueleto\06B - CasoEstudioWebServiceEsqueleto\PresentacionWin\bin\Debug\PresentacionWin.exe.config
+C:\Users\sistemas\Desktop\WebService\06B_-_CasoEstudioWebServiceEsqueleto\06B - CasoEstudioWebServiceEsqueleto\PresentacionWin\obj\x86\Debug\PresentacionWin.exe
+C:\Users\sistemas\Desktop\WebService\06B_-_CasoEstudioWebServiceEsqueleto\06B - CasoEstudioWebServiceEsqueleto\PresentacionWin\obj\x86\Debug\PresentacionWin.pdb
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueleto\PresentacionWin\bin\Debug\PresentacionWin.exe.config
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueleto\PresentacionWin\obj\x86\Debug\PresentacionWin.exe
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueleto\PresentacionWin\obj\x86\Debug\PresentacionWin.pdb
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueleto\PresentacionWin\bin\Debug\PresentacionWin.exe
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueleto\PresentacionWin\bin\Debug\PresentacionWin.pdb
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueleto\PresentacionWin\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueleto\PresentacionWin\obj\x86\Debug\PresentacionWin.ABMArticulos.resources
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueleto\PresentacionWin\obj\x86\Debug\PresentacionWin.ListarArticulos.resources
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueleto\PresentacionWin\obj\x86\Debug\PresentacionWin.Properties.Resources.resources
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueleto\PresentacionWin\obj\x86\Debug\ResGen.read.1.tlog
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueleto\PresentacionWin\obj\x86\Debug\ResGen.write.1.tlog
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueletoCarlosRodriguez\PresentacionWin\bin\Debug\PresentacionWin.exe.config
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueletoCarlosRodriguez\PresentacionWin\bin\Debug\PresentacionWin.exe
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueletoCarlosRodriguez\PresentacionWin\bin\Debug\PresentacionWin.pdb
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueletoCarlosRodriguez\PresentacionWin\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueletoCarlosRodriguez\PresentacionWin\obj\x86\Debug\PresentacionWin.ABMArticulos.resources
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueletoCarlosRodriguez\PresentacionWin\obj\x86\Debug\PresentacionWin.ListarArticulos.resources
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueletoCarlosRodriguez\PresentacionWin\obj\x86\Debug\PresentacionWin.Properties.Resources.resources
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueletoCarlosRodriguez\PresentacionWin\obj\x86\Debug\ResGen.read.1.tlog
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueletoCarlosRodriguez\PresentacionWin\obj\x86\Debug\ResGen.write.1.tlog
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueletoCarlosRodriguez\PresentacionWin\obj\x86\Debug\PresentacionWin.exe
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueletoCarlosRodriguez\PresentacionWin\obj\x86\Debug\PresentacionWin.pdb

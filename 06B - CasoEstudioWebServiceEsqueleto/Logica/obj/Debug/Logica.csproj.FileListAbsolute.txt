@@ -1,0 +1,90 @@
+D:\bios\2º año carrera\material mio\01A - CasoEstudioFachada\Logica\bin\Debug\Logica.dll
+D:\bios\2º año carrera\material mio\01A - CasoEstudioFachada\Logica\bin\Debug\Logica.pdb
+D:\bios\2º año carrera\material mio\01A - CasoEstudioFachada\Logica\bin\Debug\EntidadesCompartidas.dll
+D:\bios\2º año carrera\material mio\01A - CasoEstudioFachada\Logica\bin\Debug\Persistencia.dll
+D:\bios\2º año carrera\material mio\01A - CasoEstudioFachada\Logica\bin\Debug\EntidadesCompartidas.pdb
+D:\bios\2º año carrera\material mio\01A - CasoEstudioFachada\Logica\bin\Debug\Persistencia.pdb
+D:\bios\2º año carrera\material mio\01A - CasoEstudioFachada\Logica\obj\Debug\ResolveAssemblyReference.cache
+D:\bios\2º año carrera\material mio\01A - CasoEstudioFachada\Logica\obj\Debug\Logica.dll
+D:\bios\2º año carrera\material mio\01A - CasoEstudioFachada\Logica\obj\Debug\Logica.pdb
+D:\bios\2º año carrera\material mio\01B - CasoEstudioFachada\Logica\bin\Debug\Logica.dll
+D:\bios\2º año carrera\material mio\01B - CasoEstudioFachada\Logica\bin\Debug\Logica.pdb
+D:\bios\2º año carrera\material mio\01B - CasoEstudioFachada\Logica\bin\Debug\EntidadesCompartidas.dll
+D:\bios\2º año carrera\material mio\01B - CasoEstudioFachada\Logica\bin\Debug\Persistencia.dll
+D:\bios\2º año carrera\material mio\01B - CasoEstudioFachada\Logica\bin\Debug\EntidadesCompartidas.pdb
+D:\bios\2º año carrera\material mio\01B - CasoEstudioFachada\Logica\bin\Debug\Persistencia.pdb
+D:\bios\2º año carrera\material mio\01B - CasoEstudioFachada\Logica\obj\Debug\ResolveAssemblyReference.cache
+D:\bios\2º año carrera\material mio\01B - CasoEstudioFachada\Logica\obj\Debug\Logica.dll
+D:\bios\2º año carrera\material mio\01B - CasoEstudioFachada\Logica\obj\Debug\Logica.pdb
+D:\bios\2º año carrera\material mio\01C - CasoEstudioFachada\Logica\obj\Debug\ResolveAssemblyReference.cache
+D:\bios\2º año carrera\material mio\01C - CasoEstudioFachada\Logica\obj\Debug\Logica.dll
+D:\bios\2º año carrera\material mio\01C - CasoEstudioFachada\Logica\obj\Debug\Logica.pdb
+D:\bios\2º año carrera\material mio\01C - CasoEstudioFachada\Logica\bin\Debug\Logica.dll
+D:\bios\2º año carrera\material mio\01C - CasoEstudioFachada\Logica\bin\Debug\Logica.pdb
+D:\bios\2º año carrera\material mio\01C - CasoEstudioFachada\Logica\bin\Debug\EntidadesCompartidas.dll
+D:\bios\2º año carrera\material mio\01C - CasoEstudioFachada\Logica\bin\Debug\Persistencia.dll
+D:\bios\2º año carrera\material mio\01C - CasoEstudioFachada\Logica\bin\Debug\EntidadesCompartidas.pdb
+D:\bios\2º año carrera\material mio\01C - CasoEstudioFachada\Logica\bin\Debug\Persistencia.pdb
+D:\bios\2º año carrera\material mio\02 - CasoEstudioWebService\Logica\bin\Debug\Logica.dll
+D:\bios\2º año carrera\material mio\02 - CasoEstudioWebService\Logica\bin\Debug\Logica.pdb
+D:\bios\2º año carrera\material mio\02 - CasoEstudioWebService\Logica\bin\Debug\EntidadesCompartidas.dll
+D:\bios\2º año carrera\material mio\02 - CasoEstudioWebService\Logica\bin\Debug\Persistencia.dll
+D:\bios\2º año carrera\material mio\02 - CasoEstudioWebService\Logica\bin\Debug\EntidadesCompartidas.pdb
+D:\bios\2º año carrera\material mio\02 - CasoEstudioWebService\Logica\bin\Debug\Persistencia.pdb
+D:\bios\2º año carrera\material mio\02 - CasoEstudioWebService\Logica\obj\Debug\ResolveAssemblyReference.cache
+D:\bios\2º año carrera\material mio\02 - CasoEstudioWebService\Logica\obj\Debug\Logica.dll
+D:\bios\2º año carrera\material mio\02 - CasoEstudioWebService\Logica\obj\Debug\Logica.pdb
+C:\Documents and Settings\Administrador\Escritorio\11A - CasoEstudioWebService\Logica\bin\Debug\Logica.dll
+C:\Documents and Settings\Administrador\Escritorio\11A - CasoEstudioWebService\Logica\bin\Debug\Logica.pdb
+C:\Documents and Settings\Administrador\Escritorio\11A - CasoEstudioWebService\Logica\bin\Debug\EntidadesCompartidas.dll
+C:\Documents and Settings\Administrador\Escritorio\11A - CasoEstudioWebService\Logica\bin\Debug\Persistencia.dll
+C:\Documents and Settings\Administrador\Escritorio\11A - CasoEstudioWebService\Logica\bin\Debug\EntidadesCompartidas.pdb
+C:\Documents and Settings\Administrador\Escritorio\11A - CasoEstudioWebService\Logica\bin\Debug\Persistencia.pdb
+C:\Documents and Settings\Administrador\Escritorio\11A - CasoEstudioWebService\Logica\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Escritorio\11A - CasoEstudioWebService\Logica\obj\Debug\Logica.dll
+C:\Documents and Settings\Administrador\Escritorio\11A - CasoEstudioWebService\Logica\obj\Debug\Logica.pdb
+C:\Users\popi\Desktop\CasoDeEstudio\12A - CasoEstudioWebService\Logica\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\popi\Desktop\CasoDeEstudio\12A - CasoEstudioWebService\Logica\obj\Debug\Logica.dll
+C:\Users\popi\Desktop\CasoDeEstudio\12A - CasoEstudioWebService\Logica\obj\Debug\Logica.pdb
+C:\Users\popi\Desktop\CasoDeEstudio\12A - CasoEstudioWebService\Logica\bin\Debug\Logica.dll
+C:\Users\popi\Desktop\CasoDeEstudio\12A - CasoEstudioWebService\Logica\bin\Debug\Logica.pdb
+C:\Users\popi\Desktop\CasoDeEstudio\12A - CasoEstudioWebService\Logica\bin\Debug\EntidadesCompartidas.dll
+C:\Users\popi\Desktop\CasoDeEstudio\12A - CasoEstudioWebService\Logica\bin\Debug\Persistencia.dll
+C:\Users\popi\Desktop\CasoDeEstudio\12A - CasoEstudioWebService\Logica\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\popi\Desktop\CasoDeEstudio\12A - CasoEstudioWebService\Logica\bin\Debug\Persistencia.pdb
+C:\Users\popi\Desktop\06B - CasoEstudioWebService\Logica\bin\Debug\Logica.dll
+C:\Users\popi\Desktop\06B - CasoEstudioWebService\Logica\bin\Debug\Logica.pdb
+C:\Users\popi\Desktop\06B - CasoEstudioWebService\Logica\bin\Debug\EntidadesCompartidas.dll
+C:\Users\popi\Desktop\06B - CasoEstudioWebService\Logica\bin\Debug\Persistencia.dll
+C:\Users\popi\Desktop\06B - CasoEstudioWebService\Logica\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\popi\Desktop\06B - CasoEstudioWebService\Logica\bin\Debug\Persistencia.pdb
+C:\Users\popi\Desktop\06B - CasoEstudioWebService\Logica\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\popi\Desktop\06B - CasoEstudioWebService\Logica\obj\Debug\Logica.dll
+C:\Users\popi\Desktop\06B - CasoEstudioWebService\Logica\obj\Debug\Logica.pdb
+C:\Users\popi\Desktop\06B - CasoEstudioWebServiceEsqueleto\Logica\bin\Debug\Logica.dll
+C:\Users\popi\Desktop\06B - CasoEstudioWebServiceEsqueleto\Logica\bin\Debug\Logica.pdb
+C:\Users\popi\Desktop\06B - CasoEstudioWebServiceEsqueleto\Logica\bin\Debug\EntidadesCompartidas.dll
+C:\Users\popi\Desktop\06B - CasoEstudioWebServiceEsqueleto\Logica\bin\Debug\Persistencia.dll
+C:\Users\popi\Desktop\06B - CasoEstudioWebServiceEsqueleto\Logica\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\popi\Desktop\06B - CasoEstudioWebServiceEsqueleto\Logica\bin\Debug\Persistencia.pdb
+C:\Users\popi\Desktop\06B - CasoEstudioWebServiceEsqueleto\Logica\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\popi\Desktop\06B - CasoEstudioWebServiceEsqueleto\Logica\obj\Debug\Logica.dll
+C:\Users\popi\Desktop\06B - CasoEstudioWebServiceEsqueleto\Logica\obj\Debug\Logica.pdb
+\\POPI-PC\0 - Disco Trabajo\01 - Bios\2 - Analista Programador Net\2 - Applicaciones Distribuidas 2013\3 - Casos de Estudio  - Esqueleto\06B - CasoEstudioWebServiceEsqueleto\Logica\bin\Debug\Logica.dll
+\\POPI-PC\0 - Disco Trabajo\01 - Bios\2 - Analista Programador Net\2 - Applicaciones Distribuidas 2013\3 - Casos de Estudio  - Esqueleto\06B - CasoEstudioWebServiceEsqueleto\Logica\bin\Debug\Logica.pdb
+\\POPI-PC\0 - Disco Trabajo\01 - Bios\2 - Analista Programador Net\2 - Applicaciones Distribuidas 2013\3 - Casos de Estudio  - Esqueleto\06B - CasoEstudioWebServiceEsqueleto\Logica\bin\Debug\EntidadesCompartidas.dll
+\\POPI-PC\0 - Disco Trabajo\01 - Bios\2 - Analista Programador Net\2 - Applicaciones Distribuidas 2013\3 - Casos de Estudio  - Esqueleto\06B - CasoEstudioWebServiceEsqueleto\Logica\bin\Debug\Persistencia.dll
+\\POPI-PC\0 - Disco Trabajo\01 - Bios\2 - Analista Programador Net\2 - Applicaciones Distribuidas 2013\3 - Casos de Estudio  - Esqueleto\06B - CasoEstudioWebServiceEsqueleto\Logica\bin\Debug\EntidadesCompartidas.pdb
+\\POPI-PC\0 - Disco Trabajo\01 - Bios\2 - Analista Programador Net\2 - Applicaciones Distribuidas 2013\3 - Casos de Estudio  - Esqueleto\06B - CasoEstudioWebServiceEsqueleto\Logica\bin\Debug\Persistencia.pdb
+\\POPI-PC\0 - Disco Trabajo\01 - Bios\2 - Analista Programador Net\2 - Applicaciones Distribuidas 2013\3 - Casos de Estudio  - Esqueleto\06B - CasoEstudioWebServiceEsqueleto\Logica\obj\Debug\ResolveAssemblyReference.cache
+\\POPI-PC\0 - Disco Trabajo\01 - Bios\2 - Analista Programador Net\2 - Applicaciones Distribuidas 2013\3 - Casos de Estudio  - Esqueleto\06B - CasoEstudioWebServiceEsqueleto\Logica\obj\Debug\Logica.dll
+\\POPI-PC\0 - Disco Trabajo\01 - Bios\2 - Analista Programador Net\2 - Applicaciones Distribuidas 2013\3 - Casos de Estudio  - Esqueleto\06B - CasoEstudioWebServiceEsqueleto\Logica\obj\Debug\Logica.pdb
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueleto\Logica\bin\Debug\Logica.dll
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueleto\Logica\bin\Debug\Logica.pdb
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueleto\Logica\bin\Debug\EntidadesCompartidas.dll
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueleto\Logica\bin\Debug\Persistencia.dll
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueleto\Logica\bin\Debug\EntidadesCompartidas.pdb
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueleto\Logica\bin\Debug\Persistencia.pdb
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueleto\Logica\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueleto\Logica\obj\Debug\Logica.dll
+C:\Users\sistemas\Desktop\06B - CasoEstudioWebServiceEsqueleto\Logica\obj\Debug\Logica.pdb
